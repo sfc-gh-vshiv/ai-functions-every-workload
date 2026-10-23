@@ -3667,5 +3667,232 @@
    "CLASS_W05B": "routine",
    "LINE": "WARN importer received duplicate row id 441 and ignored the second copy"
   }
+ ],
+ "elapsed_by_workload": [
+  {
+   "RUN": "full",
+   "WORKLOAD": "preflight",
+   "STARTED": "2026-10-22 15:23:32.710 -0700",
+   "QUERIES": 3,
+   "SECONDS": "6.2",
+   "QUEUED_SECONDS": "0.3",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w01",
+   "STARTED": "2026-10-22 15:35:43.248 -0700",
+   "QUERIES": 5,
+   "SECONDS": "37.1",
+   "QUEUED_SECONDS": "0.3",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02",
+   "STARTED": "2026-10-22 15:36:23.199 -0700",
+   "QUERIES": 13,
+   "SECONDS": "73.2",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "STARTED": "2026-10-22 15:53:05.529 -0700",
+   "QUERIES": 4,
+   "SECONDS": "27.5",
+   "QUEUED_SECONDS": "0.1",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "STARTED": "2026-10-22 16:39:02.707 -0700",
+   "QUERIES": 5,
+   "SECONDS": "25.5",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w03",
+   "STARTED": "2026-10-22 15:37:39.404 -0700",
+   "QUERIES": 4,
+   "SECONDS": "117.6",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w04",
+   "STARTED": "2026-10-22 15:39:40.594 -0700",
+   "QUERIES": 11,
+   "SECONDS": "401.9",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05",
+   "STARTED": "2026-10-22 15:46:25.038 -0700",
+   "QUERIES": 4,
+   "SECONDS": "36.4",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05b",
+   "STARTED": "2026-10-22 15:53:35.610 -0700",
+   "QUERIES": 5,
+   "SECONDS": "24.7",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05c",
+   "STARTED": "2026-10-22 16:39:31.081 -0700",
+   "QUERIES": 5,
+   "SECONDS": "15.9",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w06",
+   "STARTED": "2026-10-22 15:47:04.326 -0700",
+   "QUERIES": 7,
+   "SECONDS": "13.0",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w07",
+   "STARTED": "2026-10-22 16:38:37.006 -0700",
+   "QUERIES": 8,
+   "SECONDS": "11.0",
+   "QUEUED_SECONDS": "0.1",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w08",
+   "STARTED": "2026-10-22 16:38:50.604 -0700",
+   "QUERIES": 6,
+   "SECONDS": "9.3",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w09",
+   "STARTED": "2026-10-22 15:47:52.154 -0700",
+   "QUERIES": 7,
+   "SECONDS": "37.9",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w10",
+   "STARTED": "2026-10-22 15:48:33.005 -0700",
+   "QUERIES": 10,
+   "SECONDS": "98.2",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w01",
+   "STARTED": "2026-10-22 15:24:03.994 -0700",
+   "QUERIES": 5,
+   "SECONDS": "8.8",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w02",
+   "STARTED": "2026-10-22 15:24:15.513 -0700",
+   "QUERIES": 13,
+   "SECONDS": "28.6",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w03",
+   "STARTED": "2026-10-22 15:24:46.860 -0700",
+   "QUERIES": 4,
+   "SECONDS": "32.7",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w04",
+   "STARTED": "2026-10-22 15:26:54.410 -0700",
+   "QUERIES": 11,
+   "SECONDS": "92.4",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w05",
+   "STARTED": "2026-10-22 15:28:29.748 -0700",
+   "QUERIES": 4,
+   "SECONDS": "5.9",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w06",
+   "STARTED": "2026-10-22 15:28:38.528 -0700",
+   "QUERIES": 7,
+   "SECONDS": "6.2",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w07",
+   "STARTED": "2026-10-22 15:28:47.466 -0700",
+   "QUERIES": 9,
+   "SECONDS": "5.9",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w08",
+   "STARTED": "2026-10-22 15:28:56.125 -0700",
+   "QUERIES": 6,
+   "SECONDS": "8.0",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w09",
+   "STARTED": "2026-10-22 15:29:07.124 -0700",
+   "QUERIES": 7,
+   "SECONDS": "5.3",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w10",
+   "STARTED": "2026-10-22 15:29:15.311 -0700",
+   "QUERIES": 10,
+   "SECONDS": "31.1",
+   "QUEUED_SECONDS": "0.0",
+   "WAREHOUSE_SIZE": "X-Small"
+  }
  ]
 }

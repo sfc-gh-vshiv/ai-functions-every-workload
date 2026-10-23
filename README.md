@@ -1,11 +1,16 @@
 # AI Functions in every workload: a field test
 
+![Ten everyday workloads solved with Snowflake Cortex AI Functions in plain SQL: 15.01 AI Credits, about $30, 13.9 minutes](docs/social-preview.png)
+
 Ten everyday data workloads, each solved with one or two Snowflake Cortex AI Functions in plain SQL,
 run at up to 10,000 rows (w01: 200 PDFs, w08: 40 calls) against synthetic data with planted ground truth. Every result is scored, and every
 AI Credit is metered per workload.
 
 **Results:** [RESULTS.md](RESULTS.md). The ten workloads cost 15.01 AI Credits. Everything, including the pilot,
-the follow-up tests and two re-runs after review, cost 17.54 AI Credits.
+the follow-up tests and two re-runs after review, cost 17.54 AI Credits. The ten workloads ran in 13.9 minutes
+of wall-clock time, one after the other, on one X-Small warehouse.
+
+![Scoreboard: quality, AI Credits, unit cost and time for each of the ten workloads](docs/scoreboard.png)
 
 | # | Workload | AI Function | Placement |
 |---|---|---|---|
@@ -69,7 +74,8 @@ snow sql -c <conn> -f sql/preflight.sql -D run=full -D n=10000 -D k9=500 -D k10=
 tools/run_all.sh <conn> pilot
 snow sql -c <conn> -f sql/meter.sql -D run=pilot
 
-# 6. Full run, then meter it. On my account the full run cost about 30 times the pilot.
+# 6. Full run, then meter it. On my account the full run cost about 30 times the pilot
+#    and took 13.9 minutes.
 tools/run_all.sh <conn> full
 snow sql -c <conn> -f sql/meter.sql -D run=full
 

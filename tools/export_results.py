@@ -4,6 +4,8 @@ Run before teardown:  python3 tools/export_results.py <connection>
 Merge a later re-run:  python3 tools/export_results.py <connection> --merge --since 2026-10-22T16:00:00-07:00
   With --merge, workloads present in this export replace the same workloads in the existing file;
   everything else in the file is kept. --since limits the billing rows to the re-run.
+Refresh one part only:  python3 tools/export_results.py <connection> --only elapsed_by_workload
+  (works after teardown for the parts that read only SNOWFLAKE.ACCOUNT_USAGE).
 Needs ACCOUNTADMIN (it reads SNOWFLAKE.ACCOUNT_USAGE).
 """
 import argparse
@@ -15,6 +17,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("conn")
 ap.add_argument("--merge", action="store_true")
 ap.add_argument("--since", default=None, help="ISO timestamp; default: 7 days ago")
+ap.add_argument("--only", nargs="+", default=None, help="export only these keys and replace them in the existing file")
 a = ap.parse_args()
 OUT = Path(__file__).resolve().parent.parent / "results" / "field_test.json"
 SINCE = f"'{a.since}'::TIMESTAMP_LTZ" if a.since else "DATEADD('day', -7, CURRENT_TIMESTAMP())"
@@ -33,6 +36,19 @@ Q = {
         COUNT(*) AS BILLING_ROWS, ROUND(SUM(h.CREDITS),6) AS AI_CREDITS
       FROM SNOWFLAKE.ACCOUNT_USAGE.CORTEX_AI_FUNCTIONS_USAGE_HISTORY h
       WHERE h.QUERY_TAG LIKE 'aifw:%' AND h.START_TIME >= DATEADD('day', -7, CURRENT_TIMESTAMP()) GROUP BY 1,2 ORDER BY 1,2""",
+    # Wall-clock time of the latest script session per workload, from its first query start to its last query end.
+    # Dynamic table refreshes run as child queries inside the ALTER ... REFRESH that waits for them,
+    # so a SUM of query times would count them twice. QUEUED_SECONDS shows time spent waiting for the warehouse.
+    "elapsed_by_workload": """WITH q AS (
+        SELECT SPLIT_PART(QUERY_TAG,':',2) AS RUN, SPLIT_PART(QUERY_TAG,':',3) AS WORKLOAD, SESSION_ID, START_TIME, END_TIME,
+               WAREHOUSE_SIZE, QUEUED_OVERLOAD_TIME + QUEUED_PROVISIONING_TIME AS QUEUED_MS
+        FROM SNOWFLAKE.ACCOUNT_USAGE.QUERY_HISTORY
+        WHERE QUERY_TAG LIKE 'aifw:%' AND USER_NAME <> 'SYSTEM' AND START_TIME >= DATEADD('day', -30, CURRENT_TIMESTAMP())),
+      s AS (SELECT RUN, WORKLOAD, SESSION_ID, MIN(START_TIME) T0, MAX(END_TIME) T1, COUNT(*) QUERIES,
+               SUM(QUEUED_MS) QUEUED_MS, MAX(WAREHOUSE_SIZE) WAREHOUSE_SIZE FROM q GROUP BY 1,2,3)
+      SELECT RUN, WORKLOAD, TO_VARCHAR(T0) AS STARTED, QUERIES, ROUND(DATEDIFF('ms',T0,T1)/1000,1) AS SECONDS,
+             ROUND(QUEUED_MS/1000,1) AS QUEUED_SECONDS, WAREHOUSE_SIZE
+      FROM s QUALIFY ROW_NUMBER() OVER (PARTITION BY RUN, WORKLOAD ORDER BY T0 DESC) = 1 ORDER BY RUN, WORKLOAD""",
     "w02_refreshes": "SELECT RUN, REFRESH_TRIGGER, REFRESH_ACTION, INSERTED_ROWS, DATEDIFF('ms',REFRESH_START_TIME,REFRESH_END_TIME)/1000 AS SECONDS FROM AIFW.W.W02_REFRESHES ORDER BY RUN, REFRESH_START_TIME",
     "w02_misroutes": "SELECT TRUE_CATEGORY, CATEGORY, COUNT(*) N FROM AIFW.W.W02_TRIAGE WHERE ALT_CATEGORY='' GROUP BY 1,2 ORDER BY 1,3 DESC",
     "w02b_samples": "SELECT BODY, CATEGORY_BEFORE, CATEGORY_AFTER FROM AIFW.W.W02B_TICKETS WHERE TRUE_CATEGORY='safety' AND CATEGORY_BEFORE<>'safety' LIMIT 5",
@@ -53,6 +69,8 @@ Q = {
     "w03_fp_by_stars": "SELECT STARS, COUNT(*) N FROM AIFW.W.W03_REVIEWS WHERE FLAGGED AND NOT TRUE_CONTRADICTION GROUP BY 1 ORDER BY 1",
 }
 
+if a.only:
+    Q = {k: Q[k] for k in a.only}
 new = {}
 for k, q in Q.items():
     p = subprocess.run(["snow", "sql", "-c", a.conn, "--format", "json", "-q", "USE ROLE ACCOUNTADMIN; " + q],
@@ -63,7 +81,11 @@ for k, q in Q.items():
         new[k] = None  # table not present in this run
     print(f"{k:26s}", len(new[k]) if isinstance(new[k], list) else "skipped (not in this run)")
 
-if a.merge and OUT.exists():
+if a.only:
+    out = json.loads(OUT.read_text()) if OUT.exists() else {}
+    out.update({k: v for k, v in new.items() if v is not None})
+    print("replaced:", sorted(k for k, v in new.items() if v is not None))
+elif a.merge and OUT.exists():
     old = json.loads(OUT.read_text())
     redone = {r["WORKLOAD"] for r in (new["results"] or [])}
     redone_cost = {r["WORKLOAD"].split(":")[0] for r in (new["cost_by_workload"] or [])}

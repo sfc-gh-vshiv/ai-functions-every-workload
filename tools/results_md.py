@@ -20,6 +20,8 @@ COST = defaultdict(float)
 for r in D.get("cost_by_workload", []):
     if r["RUN"] == "full":
         COST[r["WORKLOAD"]] += float(r["AI_CREDITS"])
+# Wall-clock seconds of the latest script session per workload (see elapsed_by_workload in export_results.py).
+SEC = {r["WORKLOAD"]: float(r["SECONDS"]) for r in D.get("elapsed_by_workload") or [] if r["RUN"] == "full"}
 PILOT = sum(float(r["AI_CREDITS"]) for r in D.get("cost_by_workload", []) if r["RUN"] == "pilot")
 SPENT = sum(float(r["AI_CREDITS"]) for r in D.get("billing_user_attribution", []))  # every billed row, incl. replaced runs
 
@@ -43,6 +45,12 @@ def money(c):
 
 def credits(c):
     return f"{c:.2f}" if c >= 0.1 else f"{c:.4f}"
+
+
+def secs(s):
+    if s is None:
+        return ""
+    return f"{s:.0f} s" if s < 90 else f"{s / 60:.1f} min"
 
 
 w = M
@@ -100,29 +108,34 @@ L.append("Measured on one Snowflake account (AWS US West 2, cross-region routing
          f"USD uses ${USD_PER_CREDIT:.2f} per AI Credit. Your rate depends on your contract and region. "
          "AI Credits come from `SNOWFLAKE.ACCOUNT_USAGE.CORTEX_AI_FUNCTIONS_USAGE_HISTORY`. "
          "Warehouse credits (one XS warehouse) are billed separately and are not included.\n")
+if SEC:
+    L.append("**Time** is wall-clock time for each workload script on one X-Small warehouse, from the first query start "
+             "to the last query end, from `SNOWFLAKE.ACCOUNT_USAGE.QUERY_HISTORY`. It includes the scoring queries, "
+             "which are fast. The workloads ran one after the other. Queue time was 0.3 s or less per workload.\n")
 L.append("**Read the quality numbers with the data in mind.** All data is synthetic and built from small phrase banks "
          "(`tools/phrases.py`), so most inputs repeat a few templates. The \"Synthetic input\" column says how varied each input is. "
          "A high score on templated data shows that the function handles that pattern, not that it will score the same on your data. "
          + ("The held-out tests below use new phrasings that no template or prompt was built from. " if has("w02c", "safety_recall_bare") else "")
          + "Raw numbers: [`results/field_test.json`](results/field_test.json).\n")
 L.append("## Ten workloads\n")
-L.append("| # | Workload | Function | Volume | Synthetic input | Quality (vs planted truth) | AI Credits | Unit cost |")
-L.append("|---|---|---|---|---|---|---:|---|")
+L.append("| # | Workload | Function | Volume | Synthetic input | Quality (vs planted truth) | AI Credits | Unit cost | Time |")
+L.append("|---|---|---|---|---|---|---:|---|---:|")
 for r in rows:
-    L.append(f"| {r[0]} | {r[1]} | {r[2]} | {r[3]} | {r[4]} | {r[5]} | {credits(r[6])} | {r[7]} |")
-L.append(f"| | **Total** | | | | | **{main_total:.2f}** | **{money(main_total)}** |\n")
+    L.append(f"| {r[0]} | {r[1]} | {r[2]} | {r[3]} | {r[4]} | {r[5]} | {credits(r[6])} | {r[7]} | {secs(SEC.get(r[0]))} |")
+time_total = sum(SEC[r[0]] for r in rows if r[0] in SEC)
+L.append(f"| | **Total** | | | | | **{main_total:.2f}** | **{money(main_total)}** | **{secs(time_total) if SEC else ''}** |\n")
 L.append("w07 and w08 are the versions re-run after review: w07 with held-out queries, w08 with a corrected similarity formula.\n")
 
 if D.get("w02_refreshes"):
     L.append("## Pay once: the dynamic table refreshes (w02)\n")
     L.append("One insert-only test: create the table, insert 200 tickets, refresh, then refresh again with no new data.\n")
-    L.append("| Refresh | Trigger | Rows classified | AI Credits |")
-    L.append("|---|---|---:|---:|")
+    L.append("| Refresh | Trigger | Rows classified | AI Credits | Time |")
+    L.append("|---|---|---:|---:|---:|")
     for r in D["w02_refreshes"]:
         if r["RUN"] != "full":
             continue
         key = f"w02:refresh_{r['REFRESH_ACTION'].lower()}_{r['REFRESH_TRIGGER'].lower()}"
-        L.append(f"| {r['REFRESH_ACTION']} | {r['REFRESH_TRIGGER']} | {int(r['INSERTED_ROWS']):,} | {COST.get(key, 0.0):.4f} |")
+        L.append(f"| {r['REFRESH_ACTION']} | {r['REFRESH_TRIGGER']} | {int(r['INSERTED_ROWS']):,} | {COST.get(key, 0.0):.4f} | {float(r['SECONDS']):.1f} s |")
     L.append("\nThe refresh with no new data had no billing row (the same in the pilot). This test did not cover updates to rows, "
              "a reinitialization, or `CREATE OR REPLACE`, which classify the rows again.\n")
 
