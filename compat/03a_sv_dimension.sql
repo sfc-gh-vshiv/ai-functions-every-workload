@@ -1,0 +1,8 @@
+USE ROLE SYSADMIN;
+USE WAREHOUSE BLOG_AIF_WH;
+USE SCHEMA BLOG_AIF_TEST.T;
+CREATE OR REPLACE SEMANTIC VIEW sv_dim
+  TABLES (t AS BLOG_AIF_TEST.T.tickets PRIMARY KEY (id))
+  DIMENSIONS (t.topic AS AI_CLASSIFY(body, ['billing', 'delivery', 'safety', 'other']):labels[0]::STRING)
+  METRICS (t.ticket_count AS COUNT(id));
+SELECT * FROM SEMANTIC_VIEW(sv_dim DIMENSIONS t.topic METRICS t.ticket_count) ORDER BY 1;

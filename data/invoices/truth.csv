@@ -1,0 +1,201 @@
+FILE,LAYOUT,VENDOR,INVOICE_NO,INVOICE_DATE,TOTAL
+invoice_0001.pdf,0,Kestrel Office Goods,INV-27745,2026-10-14,2490.98
+invoice_0002.pdf,1,Altura Logistics LLC,INV-48377,2026-09-13,1486.89
+invoice_0003.pdf,2,Kestrel Office Goods,INV-79955,2026-10-08,2795.03
+invoice_0004.pdf,0,Juniper Print Works,INV-74579,2026-09-05,963.63
+invoice_0005.pdf,1,Solace Facilities Inc.,INV-86150,2026-09-06,7612.38
+invoice_0006.pdf,2,Halcyon IT Services,INV-82851,2026-09-13,548.64
+invoice_0007.pdf,0,Juniper Print Works,INV-20699,2026-10-11,138.78
+invoice_0008.pdf,1,Solace Facilities Inc.,INV-87705,2026-10-01,5464.26
+invoice_0009.pdf,2,Northpeak Supply Co.,INV-25877,2026-10-03,2734.56
+invoice_0010.pdf,0,Halcyon IT Services,INV-64481,2026-10-03,3205.44
+invoice_0011.pdf,1,Cobalt Freight Partners,INV-87445,2026-10-13,12639.19
+invoice_0012.pdf,2,Halcyon IT Services,INV-39941,2026-09-26,3141.90
+invoice_0013.pdf,0,Solace Facilities Inc.,INV-87007,2026-10-12,11082.96
+invoice_0014.pdf,1,Kestrel Office Goods,INV-39960,2026-09-15,15423.48
+invoice_0015.pdf,2,Kestrel Office Goods,INV-73000,2026-10-01,3465.72
+invoice_0016.pdf,0,Bramble & Finch Packaging,INV-21534,2026-09-22,1006.02
+invoice_0017.pdf,1,Halcyon IT Services,INV-46460,2026-09-18,6442.74
+invoice_0018.pdf,2,Kestrel Office Goods,INV-72770,2026-09-26,2332.80
+invoice_0019.pdf,0,Halcyon IT Services,INV-87730,2026-09-28,1667.47
+invoice_0020.pdf,1,Northpeak Supply Co.,INV-49325,2026-09-15,4664.97
+invoice_0021.pdf,2,Altura Logistics LLC,INV-72531,2026-10-05,12617.64
+invoice_0022.pdf,0,Halcyon IT Services,INV-25162,2026-10-03,1041.10
+invoice_0023.pdf,1,Cobalt Freight Partners,INV-25219,2026-09-15,2255.75
+invoice_0024.pdf,2,Kestrel Office Goods,INV-40332,2026-09-04,5298.46
+invoice_0025.pdf,0,Bramble & Finch Packaging,INV-89545,2026-09-28,12466.44
+invoice_0026.pdf,1,Juniper Print Works,INV-66292,2026-09-13,4864.32
+invoice_0027.pdf,2,Cobalt Freight Partners,INV-35798,2026-10-01,2118.91
+invoice_0028.pdf,0,Juniper Print Works,INV-55268,2026-10-14,7960.09
+invoice_0029.pdf,1,Altura Logistics LLC,INV-27993,2026-09-03,4218.37
+invoice_0030.pdf,2,Bramble & Finch Packaging,INV-70995,2026-09-23,4550.20
+invoice_0031.pdf,0,Cobalt Freight Partners,INV-66420,2026-09-02,2027.70
+invoice_0032.pdf,1,Altura Logistics LLC,INV-65912,2026-09-24,212.76
+invoice_0033.pdf,2,Bramble & Finch Packaging,INV-56383,2026-09-10,1538.46
+invoice_0034.pdf,0,Altura Logistics LLC,INV-28099,2026-09-14,1349.46
+invoice_0035.pdf,1,Northpeak Supply Co.,INV-85591,2026-09-22,1038.42
+invoice_0036.pdf,2,Cobalt Freight Partners,INV-42217,2026-10-13,421.47
+invoice_0037.pdf,0,Juniper Print Works,INV-60598,2026-09-18,13375.80
+invoice_0038.pdf,1,Bramble & Finch Packaging,INV-35705,2026-09-11,6338.52
+invoice_0039.pdf,2,Solace Facilities Inc.,INV-23189,2026-09-04,5790.96
+invoice_0040.pdf,0,Kestrel Office Goods,INV-80362,2026-10-07,3944.43
+invoice_0041.pdf,1,Bramble & Finch Packaging,INV-27623,2026-09-10,1959.64
+invoice_0042.pdf,2,Kestrel Office Goods,INV-26346,2026-09-26,3331.77
+invoice_0043.pdf,0,Juniper Print Works,INV-54814,2026-09-06,3366.09
+invoice_0044.pdf,1,Northpeak Supply Co.,INV-26849,2026-10-09,9813.96
+invoice_0045.pdf,2,Kestrel Office Goods,INV-87107,2026-09-28,10410.00
+invoice_0046.pdf,0,Halcyon IT Services,INV-79969,2026-09-04,1761.48
+invoice_0047.pdf,1,Juniper Print Works,INV-61604,2026-09-09,6993.95
+invoice_0048.pdf,2,Bramble & Finch Packaging,INV-75344,2026-09-23,5101.38
+invoice_0049.pdf,0,Juniper Print Works,INV-62316,2026-09-25,912.60
+invoice_0050.pdf,1,Altura Logistics LLC,INV-38855,2026-10-03,3402.00
+invoice_0051.pdf,2,Juniper Print Works,INV-56227,2026-09-20,858.60
+invoice_0052.pdf,0,Bramble & Finch Packaging,INV-55685,2026-09-25,4534.08
+invoice_0053.pdf,1,Kestrel Office Goods,INV-89600,2026-10-09,6735.96
+invoice_0054.pdf,2,Juniper Print Works,INV-88075,2026-10-08,5678.10
+invoice_0055.pdf,0,Halcyon IT Services,INV-46446,2026-09-30,3560.76
+invoice_0056.pdf,1,Cobalt Freight Partners,INV-88753,2026-10-05,10288.08
+invoice_0057.pdf,2,Bramble & Finch Packaging,INV-41598,2026-09-14,3618.81
+invoice_0058.pdf,0,Cobalt Freight Partners,INV-35937,2026-10-07,3059.53
+invoice_0059.pdf,1,Kestrel Office Goods,INV-87704,2026-09-08,4057.54
+invoice_0060.pdf,2,Solace Facilities Inc.,INV-51651,2026-09-20,525.96
+invoice_0061.pdf,0,Altura Logistics LLC,INV-33691,2026-09-14,3231.32
+invoice_0062.pdf,1,Juniper Print Works,INV-34037,2026-09-05,1407.78
+invoice_0063.pdf,2,Solace Facilities Inc.,INV-79506,2026-09-17,1099.98
+invoice_0064.pdf,0,Solace Facilities Inc.,INV-81459,2026-09-04,6976.67
+invoice_0065.pdf,1,Altura Logistics LLC,INV-55297,2026-09-05,12080.88
+invoice_0066.pdf,2,Bramble & Finch Packaging,INV-43109,2026-09-17,7668.52
+invoice_0067.pdf,0,Bramble & Finch Packaging,INV-50948,2026-09-06,2024.19
+invoice_0068.pdf,1,Bramble & Finch Packaging,INV-57982,2026-10-06,4566.24
+invoice_0069.pdf,2,Kestrel Office Goods,INV-37440,2026-10-10,6542.60
+invoice_0070.pdf,0,Cobalt Freight Partners,INV-51051,2026-09-11,6127.36
+invoice_0071.pdf,1,Northpeak Supply Co.,INV-57545,2026-09-13,4648.59
+invoice_0072.pdf,2,Solace Facilities Inc.,INV-39468,2026-10-12,4587.84
+invoice_0073.pdf,0,Kestrel Office Goods,INV-28173,2026-09-26,857.52
+invoice_0074.pdf,1,Kestrel Office Goods,INV-55258,2026-09-01,5876.28
+invoice_0075.pdf,2,Kestrel Office Goods,INV-23216,2026-10-16,6109.56
+invoice_0076.pdf,0,Altura Logistics LLC,INV-24592,2026-09-12,6550.20
+invoice_0077.pdf,1,Cobalt Freight Partners,INV-84890,2026-09-09,3570.47
+invoice_0078.pdf,2,Halcyon IT Services,INV-82588,2026-10-03,7147.33
+invoice_0079.pdf,0,Northpeak Supply Co.,INV-28601,2026-09-19,1112.37
+invoice_0080.pdf,1,Halcyon IT Services,INV-29904,2026-09-17,361.78
+invoice_0081.pdf,2,Bramble & Finch Packaging,INV-53992,2026-09-28,4441.23
+invoice_0082.pdf,0,Halcyon IT Services,INV-71092,2026-10-03,7102.32
+invoice_0083.pdf,1,Halcyon IT Services,INV-61204,2026-10-16,1888.38
+invoice_0084.pdf,2,Juniper Print Works,INV-85102,2026-10-14,8994.66
+invoice_0085.pdf,0,Juniper Print Works,INV-39757,2026-09-05,4265.73
+invoice_0086.pdf,1,Juniper Print Works,INV-54949,2026-09-07,4030.29
+invoice_0087.pdf,2,Cobalt Freight Partners,INV-83011,2026-10-08,8437.96
+invoice_0088.pdf,0,Solace Facilities Inc.,INV-75037,2026-09-29,7711.20
+invoice_0089.pdf,1,Solace Facilities Inc.,INV-83617,2026-09-16,12203.96
+invoice_0090.pdf,2,Northpeak Supply Co.,INV-83466,2026-09-03,7364.50
+invoice_0091.pdf,0,Kestrel Office Goods,INV-56226,2026-09-13,14078.88
+invoice_0092.pdf,1,Cobalt Freight Partners,INV-66223,2026-09-01,974.16
+invoice_0093.pdf,2,Juniper Print Works,INV-29910,2026-09-23,21158.28
+invoice_0094.pdf,0,Halcyon IT Services,INV-46623,2026-09-12,905.01
+invoice_0095.pdf,1,Bramble & Finch Packaging,INV-22228,2026-10-14,1139.40
+invoice_0096.pdf,2,Bramble & Finch Packaging,INV-76580,2026-10-07,18519.75
+invoice_0097.pdf,0,Halcyon IT Services,INV-45744,2026-09-13,11443.68
+invoice_0098.pdf,1,Northpeak Supply Co.,INV-24265,2026-09-22,7751.70
+invoice_0099.pdf,2,Kestrel Office Goods,INV-22895,2026-09-06,2043.24
+invoice_0100.pdf,0,Halcyon IT Services,INV-51158,2026-09-10,11136.40
+invoice_0101.pdf,1,Kestrel Office Goods,INV-44747,2026-09-07,1585.86
+invoice_0102.pdf,2,Bramble & Finch Packaging,INV-41864,2026-10-14,4063.50
+invoice_0103.pdf,0,Solace Facilities Inc.,INV-58405,2026-09-11,10929.49
+invoice_0104.pdf,1,Cobalt Freight Partners,INV-81129,2026-09-13,4561.79
+invoice_0105.pdf,2,Cobalt Freight Partners,INV-26315,2026-09-12,247.32
+invoice_0106.pdf,0,Bramble & Finch Packaging,INV-42389,2026-09-05,8305.20
+invoice_0107.pdf,1,Juniper Print Works,INV-27713,2026-09-06,11397.47
+invoice_0108.pdf,2,Northpeak Supply Co.,INV-63423,2026-09-14,1965.22
+invoice_0109.pdf,0,Halcyon IT Services,INV-53014,2026-09-04,15488.28
+invoice_0110.pdf,1,Halcyon IT Services,INV-59231,2026-10-15,13804.29
+invoice_0111.pdf,2,Altura Logistics LLC,INV-69677,2026-09-21,2313.36
+invoice_0112.pdf,0,Juniper Print Works,INV-64068,2026-10-01,11529.95
+invoice_0113.pdf,1,Bramble & Finch Packaging,INV-60417,2026-09-27,834.84
+invoice_0114.pdf,2,Halcyon IT Services,INV-27239,2026-09-12,5259.60
+invoice_0115.pdf,0,Northpeak Supply Co.,INV-31125,2026-09-14,11944.53
+invoice_0116.pdf,1,Cobalt Freight Partners,INV-82732,2026-09-26,5185.62
+invoice_0117.pdf,2,Northpeak Supply Co.,INV-64964,2026-10-10,2671.56
+invoice_0118.pdf,0,Juniper Print Works,INV-87049,2026-09-09,12229.89
+invoice_0119.pdf,1,Bramble & Finch Packaging,INV-71701,2026-09-09,13848.48
+invoice_0120.pdf,2,Cobalt Freight Partners,INV-76176,2026-10-11,4127.22
+invoice_0121.pdf,0,Halcyon IT Services,INV-24982,2026-10-08,2398.04
+invoice_0122.pdf,1,Bramble & Finch Packaging,INV-75150,2026-09-06,7752.24
+invoice_0123.pdf,2,Cobalt Freight Partners,INV-32757,2026-09-06,10139.85
+invoice_0124.pdf,0,Juniper Print Works,INV-77238,2026-09-08,3922.56
+invoice_0125.pdf,1,Cobalt Freight Partners,INV-40944,2026-09-23,10623.42
+invoice_0126.pdf,2,Altura Logistics LLC,INV-83728,2026-10-06,1749.60
+invoice_0127.pdf,0,Cobalt Freight Partners,INV-42873,2026-10-10,1907.82
+invoice_0128.pdf,1,Bramble & Finch Packaging,INV-29980,2026-10-07,7829.97
+invoice_0129.pdf,2,Northpeak Supply Co.,INV-54101,2026-10-05,3850.20
+invoice_0130.pdf,0,Altura Logistics LLC,INV-68552,2026-10-05,3607.20
+invoice_0131.pdf,1,Kestrel Office Goods,INV-37094,2026-09-19,3212.88
+invoice_0132.pdf,2,Kestrel Office Goods,INV-84656,2026-10-07,15703.19
+invoice_0133.pdf,0,Kestrel Office Goods,INV-68714,2026-10-15,6620.67
+invoice_0134.pdf,1,Cobalt Freight Partners,INV-29466,2026-09-09,15610.59
+invoice_0135.pdf,2,Halcyon IT Services,INV-47477,2026-10-06,4657.50
+invoice_0136.pdf,0,Juniper Print Works,INV-65503,2026-10-13,237.33
+invoice_0137.pdf,1,Solace Facilities Inc.,INV-64568,2026-10-03,6958.17
+invoice_0138.pdf,2,Kestrel Office Goods,INV-53733,2026-09-21,4665.51
+invoice_0139.pdf,0,Solace Facilities Inc.,INV-21950,2026-09-05,636.93
+invoice_0140.pdf,1,Northpeak Supply Co.,INV-73383,2026-09-04,5122.44
+invoice_0141.pdf,2,Bramble & Finch Packaging,INV-86332,2026-09-09,6414.12
+invoice_0142.pdf,0,Juniper Print Works,INV-40872,2026-10-15,10168.20
+invoice_0143.pdf,1,Halcyon IT Services,INV-82755,2026-09-29,2909.95
+invoice_0144.pdf,2,Bramble & Finch Packaging,INV-64223,2026-10-13,3207.60
+invoice_0145.pdf,0,Juniper Print Works,INV-34408,2026-09-21,3624.48
+invoice_0146.pdf,1,Northpeak Supply Co.,INV-70465,2026-09-28,4254.66
+invoice_0147.pdf,2,Juniper Print Works,INV-63560,2026-09-18,4645.89
+invoice_0148.pdf,0,Juniper Print Works,INV-84740,2026-09-10,13384.41
+invoice_0149.pdf,1,Kestrel Office Goods,INV-67025,2026-09-13,5982.39
+invoice_0150.pdf,2,Halcyon IT Services,INV-26504,2026-09-26,9096.03
+invoice_0151.pdf,0,Juniper Print Works,INV-85216,2026-09-12,2238.84
+invoice_0152.pdf,1,Cobalt Freight Partners,INV-83681,2026-10-02,9036.36
+invoice_0153.pdf,2,Cobalt Freight Partners,INV-68850,2026-09-11,5214.51
+invoice_0154.pdf,0,Kestrel Office Goods,INV-67975,2026-10-04,1877.04
+invoice_0155.pdf,1,Cobalt Freight Partners,INV-75979,2026-09-04,10618.56
+invoice_0156.pdf,2,Cobalt Freight Partners,INV-85604,2026-09-10,5444.26
+invoice_0157.pdf,0,Halcyon IT Services,INV-39035,2026-10-02,1360.70
+invoice_0158.pdf,1,Kestrel Office Goods,INV-47568,2026-09-26,5578.10
+invoice_0159.pdf,2,Kestrel Office Goods,INV-32106,2026-09-11,473.04
+invoice_0160.pdf,0,Solace Facilities Inc.,INV-69558,2026-10-10,9714.52
+invoice_0161.pdf,1,Altura Logistics LLC,INV-79229,2026-10-01,4341.48
+invoice_0162.pdf,2,Altura Logistics LLC,INV-36161,2026-09-17,6651.72
+invoice_0163.pdf,0,Bramble & Finch Packaging,INV-86622,2026-10-11,12714.84
+invoice_0164.pdf,1,Altura Logistics LLC,INV-25513,2026-09-26,12332.49
+invoice_0165.pdf,2,Juniper Print Works,INV-75580,2026-10-12,10134.63
+invoice_0166.pdf,0,Northpeak Supply Co.,INV-20344,2026-10-14,3974.40
+invoice_0167.pdf,1,Halcyon IT Services,INV-42840,2026-09-22,13556.04
+invoice_0168.pdf,2,Bramble & Finch Packaging,INV-86595,2026-09-27,4423.82
+invoice_0169.pdf,0,Solace Facilities Inc.,INV-29668,2026-10-03,4720.68
+invoice_0170.pdf,1,Altura Logistics LLC,INV-43645,2026-09-25,2997.71
+invoice_0171.pdf,2,Halcyon IT Services,INV-63266,2026-09-04,13624.74
+invoice_0172.pdf,0,Juniper Print Works,INV-37811,2026-10-05,7236.00
+invoice_0173.pdf,1,Cobalt Freight Partners,INV-63638,2026-09-21,6437.84
+invoice_0174.pdf,2,Solace Facilities Inc.,INV-27526,2026-09-17,13327.07
+invoice_0175.pdf,0,Cobalt Freight Partners,INV-53348,2026-09-18,6131.16
+invoice_0176.pdf,1,Halcyon IT Services,INV-26599,2026-10-10,8966.16
+invoice_0177.pdf,2,Solace Facilities Inc.,INV-70788,2026-10-02,4784.40
+invoice_0178.pdf,0,Solace Facilities Inc.,INV-82169,2026-09-27,1956.96
+invoice_0179.pdf,1,Altura Logistics LLC,INV-54662,2026-10-04,2280.42
+invoice_0180.pdf,2,Halcyon IT Services,INV-66747,2026-09-03,3281.04
+invoice_0181.pdf,0,Cobalt Freight Partners,INV-47505,2026-09-22,11092.41
+invoice_0182.pdf,1,Altura Logistics LLC,INV-44520,2026-09-18,1703.16
+invoice_0183.pdf,2,Solace Facilities Inc.,INV-53107,2026-09-21,11775.24
+invoice_0184.pdf,0,Bramble & Finch Packaging,INV-82562,2026-09-09,11113.20
+invoice_0185.pdf,1,Halcyon IT Services,INV-71767,2026-10-16,14839.47
+invoice_0186.pdf,2,Altura Logistics LLC,INV-23515,2026-10-09,3399.82
+invoice_0187.pdf,0,Northpeak Supply Co.,INV-26636,2026-09-04,8525.48
+invoice_0188.pdf,1,Halcyon IT Services,INV-66663,2026-09-24,8202.60
+invoice_0189.pdf,2,Cobalt Freight Partners,INV-55001,2026-09-27,6350.40
+invoice_0190.pdf,0,Solace Facilities Inc.,INV-84180,2026-09-06,2454.17
+invoice_0191.pdf,1,Halcyon IT Services,INV-76083,2026-10-12,4931.82
+invoice_0192.pdf,2,Altura Logistics LLC,INV-82489,2026-09-10,2097.78
+invoice_0193.pdf,0,Kestrel Office Goods,INV-24555,2026-10-16,12296.33
+invoice_0194.pdf,1,Northpeak Supply Co.,INV-82580,2026-09-24,14817.60
+invoice_0195.pdf,2,Kestrel Office Goods,INV-62839,2026-09-03,2111.40
+invoice_0196.pdf,0,Northpeak Supply Co.,INV-24240,2026-09-17,2851.10
+invoice_0197.pdf,1,Bramble & Finch Packaging,INV-55525,2026-10-14,2264.76
+invoice_0198.pdf,2,Kestrel Office Goods,INV-38094,2026-09-28,7216.46
+invoice_0199.pdf,0,Cobalt Freight Partners,INV-82029,2026-10-16,14203.61
+invoice_0200.pdf,1,Kestrel Office Goods,INV-23580,2026-09-22,570.78

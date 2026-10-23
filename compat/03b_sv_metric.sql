@@ -1,0 +1,8 @@
+USE ROLE SYSADMIN;
+USE WAREHOUSE BLOG_AIF_WH;
+USE SCHEMA BLOG_AIF_TEST.T;
+CREATE OR REPLACE SEMANTIC VIEW sv_metric
+  TABLES (t AS BLOG_AIF_TEST.T.tickets PRIMARY KEY (id))
+  DIMENSIONS (t.ticket_id AS id)
+  METRICS (t.themes AS AI_AGG(body, 'List the top 3 themes in one line'));
+SELECT * FROM SEMANTIC_VIEW(sv_metric METRICS t.themes);

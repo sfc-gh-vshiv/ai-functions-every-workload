@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.pyc
+# Run logs can contain account and user names. Keep them local.
+results/*_log*.txt
+results/meter_*.txt
+results/quota_view_raw.json

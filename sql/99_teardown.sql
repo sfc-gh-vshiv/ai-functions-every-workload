@@ -1,0 +1,10 @@
+-- 99_teardown.sql: remove everything the field test created.
+-- Dropping AIFW also drops the quota (it lives in AIFW.GUARD) and every stage and its files.
+USE ROLE ACCOUNTADMIN;
+DROP DATABASE IF EXISTS AIFW;
+DROP WAREHOUSE IF EXISTS AIFW_WH;
+DROP ROLE IF EXISTS AIFW_PII_READER;
+DROP ROLE IF EXISTS AIFW_ROLE;
+SHOW DATABASES LIKE 'AIFW';
+SHOW WAREHOUSES LIKE 'AIFW_WH';
+SHOW ROLES LIKE 'AIFW%';

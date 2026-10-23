@@ -1,0 +1,13 @@
+USE ROLE ACCOUNTADMIN;
+USE WAREHOUSE BLOG_AIF_WH;
+USE SCHEMA BLOG_AIF_TEST.T;
+SELECT 'task' AS src, id::STRING AS k, topic AS v FROM tickets_enriched
+UNION ALL
+SELECT 'alert_log', NULL, fired_at::STRING FROM alert_log;
+SELECT 'task' AS src, state, error_code, error_message
+FROM TABLE(INFORMATION_SCHEMA.TASK_HISTORY(TASK_NAME => 'T_ENRICH'))
+UNION ALL
+SELECT 'alert', state, sql_error_code::STRING, sql_error_message
+FROM TABLE(INFORMATION_SCHEMA.ALERT_HISTORY(
+  SCHEDULED_TIME_RANGE_START => DATEADD('hour', -2, CURRENT_TIMESTAMP())))
+WHERE name = 'A_SAFETY';

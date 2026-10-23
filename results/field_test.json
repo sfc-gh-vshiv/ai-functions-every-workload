@@ -1,0 +1,3671 @@
+{
+ "results": [
+  {
+   "RUN": "full",
+   "WORKLOAD": "preflight",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 6.067,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "preflight",
+   "METRIC": "w02_ai_classify_input_tokens",
+   "VALUE": 2105606.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "preflight",
+   "METRIC": "w03_ai_filter_input_tokens",
+   "VALUE": null,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "preflight",
+   "METRIC": "w04_ai_redact_input_tokens",
+   "VALUE": 4410543.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "preflight",
+   "METRIC": "w05_ai_classify_input_tokens",
+   "VALUE": 1812373.0,
+   "NOTE": "labels only; descriptions add tokens"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "preflight",
+   "METRIC": "w06_review_tokens_for_ai_agg",
+   "VALUE": 209999.0,
+   "NOTE": "proxy: review text only"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "preflight",
+   "METRIC": "w07_ai_embed_input_tokens",
+   "VALUE": 238922.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "preflight",
+   "METRIC": "w09_ai_classify_original_input_tokens",
+   "VALUE": 98457.0,
+   "NOTE": "x2 for the translated copy (approx.)"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "preflight",
+   "METRIC": "w09_ai_translate_input_tokens",
+   "VALUE": 239086.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "preflight",
+   "METRIC": "w10_ai_complete_8b_input_tokens",
+   "VALUE": 944348.0,
+   "NOTE": "output capped at 120 tokens per row"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w01",
+   "METRIC": "ai_credits",
+   "VALUE": 1.2457419,
+   "NOTE": "AI_EXTRACT"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w01",
+   "METRIC": "all_four_correct",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w01",
+   "METRIC": "all_four_correct_layout_0",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w01",
+   "METRIC": "all_four_correct_layout_1",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w01",
+   "METRIC": "all_four_correct_layout_2",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w01",
+   "METRIC": "date_accuracy",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w01",
+   "METRIC": "documents",
+   "VALUE": 200.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w01",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 36.812,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w01",
+   "METRIC": "invoice_no_accuracy",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w01",
+   "METRIC": "total_accuracy",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w01",
+   "METRIC": "vendor_accuracy",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02",
+   "METRIC": "accuracy",
+   "VALUE": 0.905196,
+   "NOTE": "correct = the primary topic, or the second topic for two-topic tickets"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02",
+   "METRIC": "accuracy_single_topic",
+   "VALUE": 0.909012,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02",
+   "METRIC": "ai_credits",
+   "VALUE": 3.50020116,
+   "NOTE": "AI_CLASSIFY"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 72.427,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02",
+   "METRIC": "refresh_incremental_creation_rows",
+   "VALUE": 10000.0,
+   "NOTE": "01c7e8cc-070e-29d9-0066-5e8312342092"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02",
+   "METRIC": "refresh_incremental_manual_rows",
+   "VALUE": 200.0,
+   "NOTE": "01c7e8cd-070e-30ba-0066-5e831233edb2"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02",
+   "METRIC": "refresh_no_data_manual_rows",
+   "VALUE": 0.0,
+   "NOTE": "01c7e8cd-070e-29d9-0066-5e83123420f6"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02",
+   "METRIC": "rows",
+   "VALUE": 10200.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02",
+   "METRIC": "safety_precision",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02",
+   "METRIC": "safety_recall",
+   "VALUE": 0.653916,
+   "NOTE": "share of safety tickets routed to safety"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "accuracy_after_account_access",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "accuracy_after_billing",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "accuracy_after_product_defect",
+   "VALUE": 0.925,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "accuracy_after_returns",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "accuracy_after_safety",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "accuracy_after_shipping",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "accuracy_before_account_access",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "accuracy_before_billing",
+   "VALUE": 0.675,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "accuracy_before_product_defect",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "accuracy_before_returns",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "accuracy_before_safety",
+   "VALUE": 0.653916,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "accuracy_before_shipping",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "control_accuracy_after",
+   "VALUE": 0.985,
+   "NOTE": "200 per other category"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "control_accuracy_before",
+   "VALUE": 0.935,
+   "NOTE": "200 per other category"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "rows",
+   "VALUE": 1549.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "safety_precision_after",
+   "VALUE": 0.973404,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "safety_precision_before",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "safety_recall_after",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02b",
+   "METRIC": "safety_recall_before",
+   "VALUE": 0.653916,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w03",
+   "METRIC": "ai_credits",
+   "VALUE": 1.61999838,
+   "NOTE": "AI_FILTER"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w03",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 117.466,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w03",
+   "METRIC": "f1",
+   "VALUE": 0.756897,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w03",
+   "METRIC": "flagged",
+   "VALUE": 721.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w03",
+   "METRIC": "null_rows",
+   "VALUE": 0.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w03",
+   "METRIC": "planted_contradictions",
+   "VALUE": 439.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w03",
+   "METRIC": "precision",
+   "VALUE": 0.608877,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w03",
+   "METRIC": "recall",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w03",
+   "METRIC": "rows",
+   "VALUE": 10000.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w04",
+   "METRIC": "ai_credits",
+   "VALUE": 2.41324947,
+   "NOTE": "AI_REDACT"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w04",
+   "METRIC": "clean_rows_changed",
+   "VALUE": 0.0,
+   "NOTE": "over-redaction on notes with no PII"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w04",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 401.249,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w04",
+   "METRIC": "masked_reads_show_redacted",
+   "VALUE": 1.0,
+   "NOTE": "NOTE as read by AIFW_ROLE after the policy"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w04",
+   "METRIC": "name_part_leak_rate",
+   "VALUE": 0.0,
+   "NOTE": "first or last name still present"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w04",
+   "METRIC": "null_rows",
+   "VALUE": 0.0,
+   "NOTE": "AI_REDACT returned NULL"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w04",
+   "METRIC": "planted_values",
+   "VALUE": 8769.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w04",
+   "METRIC": "row_leak_rate",
+   "VALUE": 0.0,
+   "NOTE": "PII rows with any planted value verbatim"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w04",
+   "METRIC": "rows",
+   "VALUE": 10000.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w04",
+   "METRIC": "rows_with_pii",
+   "VALUE": 4009.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w04",
+   "METRIC": "value_leak_rate",
+   "VALUE": 0.0,
+   "NOTE": "planted value still present verbatim"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05",
+   "METRIC": "accuracy",
+   "VALUE": 0.9942,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05",
+   "METRIC": "ai_credits",
+   "VALUE": 4.55604426,
+   "NOTE": "AI_CLASSIFY"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05",
+   "METRIC": "confusion_error_as_error",
+   "VALUE": 1190.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05",
+   "METRIC": "confusion_incident_as_incident",
+   "VALUE": 233.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05",
+   "METRIC": "confusion_incident_as_routine",
+   "VALUE": 58.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05",
+   "METRIC": "confusion_routine_as_routine",
+   "VALUE": 8519.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 36.211,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05",
+   "METRIC": "incident_precision",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05",
+   "METRIC": "incident_recall",
+   "VALUE": 0.800687,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05",
+   "METRIC": "lines_for_human_review",
+   "VALUE": 1423.0,
+   "NOTE": "incident + error"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05",
+   "METRIC": "planted_incidents",
+   "VALUE": 291.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05",
+   "METRIC": "rows",
+   "VALUE": 10000.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05b",
+   "METRIC": "control_accuracy_after",
+   "VALUE": 1.0,
+   "NOTE": "non-incident lines"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05b",
+   "METRIC": "control_accuracy_before",
+   "VALUE": 1.0,
+   "NOTE": "non-incident lines"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05b",
+   "METRIC": "incident_precision_after",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05b",
+   "METRIC": "incident_precision_before",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05b",
+   "METRIC": "incident_recall_after",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05b",
+   "METRIC": "incident_recall_before",
+   "VALUE": 0.800687,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05b",
+   "METRIC": "rows",
+   "VALUE": 1291.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w06",
+   "METRIC": "ai_credits",
+   "VALUE": 0.2377324,
+   "NOTE": "AI_AGG"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w06",
+   "METRIC": "avg_true_key_share",
+   "VALUE": 0.64965594,
+   "NOTE": "how dominant the top complaint is"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w06",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 12.613,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w06",
+   "METRIC": "products",
+   "VALUE": 50.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w06",
+   "METRIC": "reviews_read",
+   "VALUE": 10000.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w06",
+   "METRIC": "top_complaint_accuracy",
+   "VALUE": 1.0,
+   "NOTE": "answer names the most frequent complaint"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w09",
+   "METRIC": "accuracy_original",
+   "VALUE": 0.898,
+   "NOTE": "no translation step"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w09",
+   "METRIC": "accuracy_translated",
+   "VALUE": 0.922,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w09",
+   "METRIC": "accuracy_translated_de",
+   "VALUE": 0.884615,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w09",
+   "METRIC": "accuracy_translated_es",
+   "VALUE": 0.932039,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w09",
+   "METRIC": "accuracy_translated_fr",
+   "VALUE": 0.931818,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w09",
+   "METRIC": "accuracy_translated_ja",
+   "VALUE": 0.9375,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w09",
+   "METRIC": "accuracy_translated_pt",
+   "VALUE": 0.926606,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w09",
+   "METRIC": "ai_credits",
+   "VALUE": 0.96066955,
+   "NOTE": "AI_CLASSIFY, AI_TRANSLATE"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w09",
+   "METRIC": "classified",
+   "VALUE": 500.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w09",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 37.579,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w09",
+   "METRIC": "null_translations",
+   "VALUE": 0.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w09",
+   "METRIC": "order_ref_preserved",
+   "VALUE": 0.99821,
+   "NOTE": "order number survives translation"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w09",
+   "METRIC": "translated",
+   "VALUE": 10000.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w10",
+   "METRIC": "ai_credits",
+   "VALUE": 0.43085058,
+   "NOTE": "AI_COMPLETE, AI_FILTER"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w10",
+   "METRIC": "avg_reply_chars_small",
+   "VALUE": 323.4168,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w10",
+   "METRIC": "compared",
+   "VALUE": 300.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w10",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 97.61,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w10",
+   "METRIC": "empty_replies_small",
+   "VALUE": 0.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w10",
+   "METRIC": "large_only_pass",
+   "VALUE": 3.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w10",
+   "METRIC": "pass_rate_large",
+   "VALUE": 1.0,
+   "NOTE": "llama3.3-70b, AI_FILTER rubric"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w10",
+   "METRIC": "pass_rate_small",
+   "VALUE": 0.99,
+   "NOTE": "llama3.1-8b, AI_FILTER rubric"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w10",
+   "METRIC": "replies_small",
+   "VALUE": 10000.0,
+   "NOTE": "llama3.1-8b"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w10",
+   "METRIC": "small_only_pass",
+   "VALUE": 0.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w01",
+   "METRIC": "ai_credits",
+   "VALUE": 0.0622488,
+   "NOTE": "AI_EXTRACT"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w01",
+   "METRIC": "all_four_correct",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w01",
+   "METRIC": "all_four_correct_layout_0",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w01",
+   "METRIC": "all_four_correct_layout_1",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w01",
+   "METRIC": "all_four_correct_layout_2",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w01",
+   "METRIC": "date_accuracy",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w01",
+   "METRIC": "documents",
+   "VALUE": 10.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w01",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 8.525,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w01",
+   "METRIC": "invoice_no_accuracy",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w01",
+   "METRIC": "total_accuracy",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w01",
+   "METRIC": "vendor_accuracy",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w02",
+   "METRIC": "accuracy",
+   "VALUE": 0.909091,
+   "NOTE": "correct = the primary topic, or the second topic for two-topic tickets"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w02",
+   "METRIC": "accuracy_single_topic",
+   "VALUE": 0.909548,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w02",
+   "METRIC": "ai_credits",
+   "VALUE": 0.07558434,
+   "NOTE": "AI_CLASSIFY"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w02",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 27.25,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w02",
+   "METRIC": "refresh_incremental_creation_rows",
+   "VALUE": 200.0,
+   "NOTE": "01c7e8c0-070e-30ef-0066-5e83123404a6"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w02",
+   "METRIC": "refresh_incremental_manual_rows",
+   "VALUE": 20.0,
+   "NOTE": "01c7e8c0-070e-29d9-0066-5e831233da5a"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w02",
+   "METRIC": "refresh_no_data_manual_rows",
+   "VALUE": 0.0,
+   "NOTE": "01c7e8c0-070e-30ef-0066-5e83123404ce"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w02",
+   "METRIC": "rows",
+   "VALUE": 220.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w02",
+   "METRIC": "safety_precision",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w02",
+   "METRIC": "safety_recall",
+   "VALUE": 1.0,
+   "NOTE": "share of safety tickets routed to safety"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w03",
+   "METRIC": "ai_credits",
+   "VALUE": 0.0324081,
+   "NOTE": "AI_FILTER"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w03",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 32.497,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w03",
+   "METRIC": "f1",
+   "VALUE": 0.8,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w03",
+   "METRIC": "flagged",
+   "VALUE": 12.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w03",
+   "METRIC": "null_rows",
+   "VALUE": 0.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w03",
+   "METRIC": "planted_contradictions",
+   "VALUE": 8.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w03",
+   "METRIC": "precision",
+   "VALUE": 0.666667,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w03",
+   "METRIC": "recall",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w03",
+   "METRIC": "rows",
+   "VALUE": 200.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w04",
+   "METRIC": "ai_credits",
+   "VALUE": 0.15384999,
+   "NOTE": "AI_REDACT"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w04",
+   "METRIC": "clean_rows_changed",
+   "VALUE": 0.0,
+   "NOTE": "over-redaction on notes with no PII"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w04",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 142.971,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w04",
+   "METRIC": "masked_reads_show_redacted",
+   "VALUE": 1.0,
+   "NOTE": "NOTE as read by AIFW_ROLE after the policy"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w04",
+   "METRIC": "name_part_leak_rate",
+   "VALUE": 0.0,
+   "NOTE": "first or last name still present"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w04",
+   "METRIC": "null_rows",
+   "VALUE": 0.0,
+   "NOTE": "AI_REDACT returned NULL"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w04",
+   "METRIC": "planted_values",
+   "VALUE": 166.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w04",
+   "METRIC": "row_leak_rate",
+   "VALUE": 0.0,
+   "NOTE": "PII rows with any planted value verbatim"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w04",
+   "METRIC": "rows",
+   "VALUE": 200.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w04",
+   "METRIC": "rows_with_pii",
+   "VALUE": 76.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w04",
+   "METRIC": "value_leak_rate",
+   "VALUE": 0.0,
+   "NOTE": "planted value still present verbatim"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w05",
+   "METRIC": "accuracy",
+   "VALUE": 0.995,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w05",
+   "METRIC": "ai_credits",
+   "VALUE": 0.09116388,
+   "NOTE": "AI_CLASSIFY"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w05",
+   "METRIC": "confusion_error_as_error",
+   "VALUE": 26.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w05",
+   "METRIC": "confusion_incident_as_incident",
+   "VALUE": 6.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w05",
+   "METRIC": "confusion_incident_as_routine",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w05",
+   "METRIC": "confusion_routine_as_routine",
+   "VALUE": 167.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w05",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 5.707,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w05",
+   "METRIC": "incident_precision",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w05",
+   "METRIC": "incident_recall",
+   "VALUE": 0.857143,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w05",
+   "METRIC": "lines_for_human_review",
+   "VALUE": 32.0,
+   "NOTE": "incident + error"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w05",
+   "METRIC": "planted_incidents",
+   "VALUE": 7.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w05",
+   "METRIC": "rows",
+   "VALUE": 200.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w06",
+   "METRIC": "ai_credits",
+   "VALUE": 0.01920485,
+   "NOTE": "AI_AGG"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w06",
+   "METRIC": "avg_true_key_share",
+   "VALUE": 0.814227634146,
+   "NOTE": "how dominant the top complaint is"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w06",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 5.849,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w06",
+   "METRIC": "products",
+   "VALUE": 41.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w06",
+   "METRIC": "reviews_read",
+   "VALUE": 193.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w06",
+   "METRIC": "top_complaint_accuracy",
+   "VALUE": 0.829268,
+   "NOTE": "answer names the most frequent complaint"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w09",
+   "METRIC": "accuracy_original",
+   "VALUE": 0.92,
+   "NOTE": "no translation step"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w09",
+   "METRIC": "accuracy_translated",
+   "VALUE": 0.94,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w09",
+   "METRIC": "accuracy_translated_de",
+   "VALUE": 0.875,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w09",
+   "METRIC": "accuracy_translated_es",
+   "VALUE": 0.833333,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w09",
+   "METRIC": "accuracy_translated_fr",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w09",
+   "METRIC": "accuracy_translated_ja",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w09",
+   "METRIC": "accuracy_translated_pt",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w09",
+   "METRIC": "ai_credits",
+   "VALUE": 0.04503393,
+   "NOTE": "AI_TRANSLATE, AI_CLASSIFY"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w09",
+   "METRIC": "classified",
+   "VALUE": 50.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w09",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 4.977,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w09",
+   "METRIC": "null_translations",
+   "VALUE": 0.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w09",
+   "METRIC": "order_ref_preserved",
+   "VALUE": 1.0,
+   "NOTE": "order number survives translation"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w09",
+   "METRIC": "translated",
+   "VALUE": 200.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w10",
+   "METRIC": "ai_credits",
+   "VALUE": 0.01877028,
+   "NOTE": "AI_COMPLETE, AI_FILTER"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w10",
+   "METRIC": "avg_reply_chars_small",
+   "VALUE": 326.485,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w10",
+   "METRIC": "compared",
+   "VALUE": 20.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w10",
+   "METRIC": "elapsed_seconds",
+   "VALUE": 30.575,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w10",
+   "METRIC": "empty_replies_small",
+   "VALUE": 0.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w10",
+   "METRIC": "large_only_pass",
+   "VALUE": 0.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w10",
+   "METRIC": "pass_rate_large",
+   "VALUE": 1.0,
+   "NOTE": "llama3.3-70b, AI_FILTER rubric"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w10",
+   "METRIC": "pass_rate_small",
+   "VALUE": 1.0,
+   "NOTE": "llama3.1-8b, AI_FILTER rubric"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w10",
+   "METRIC": "replies_small",
+   "VALUE": 200.0,
+   "NOTE": "llama3.1-8b"
+  },
+  {
+   "RUN": "pilot",
+   "WORKLOAD": "w10",
+   "METRIC": "small_only_pass",
+   "VALUE": 0.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "accuracy_bare",
+   "VALUE": 0.916667,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "accuracy_bare_account_access",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "accuracy_bare_billing",
+   "VALUE": 0.95,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "accuracy_bare_product_defect",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "accuracy_bare_returns",
+   "VALUE": 0.925,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "accuracy_bare_safety",
+   "VALUE": 0.65,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "accuracy_bare_shipping",
+   "VALUE": 0.975,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "accuracy_described",
+   "VALUE": 0.991667,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "accuracy_described_account_access",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "accuracy_described_billing",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "accuracy_described_product_defect",
+   "VALUE": 0.975,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "accuracy_described_returns",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "accuracy_described_safety",
+   "VALUE": 0.975,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "accuracy_described_shipping",
+   "VALUE": 1.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "non_safety_sent_to_safety_bare",
+   "VALUE": 0.0,
+   "NOTE": "of 200 non-safety tickets"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "non_safety_sent_to_safety_described",
+   "VALUE": 0.0,
+   "NOTE": "of 200 non-safety tickets"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "rows",
+   "VALUE": 240.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "safety_recall_bare",
+   "VALUE": 0.65,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w02c",
+   "METRIC": "safety_recall_described",
+   "VALUE": 0.975,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05c",
+   "METRIC": "accuracy_w05",
+   "VALUE": 0.75,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05c",
+   "METRIC": "accuracy_w05b",
+   "VALUE": 0.833333,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05c",
+   "METRIC": "false_incidents_w05",
+   "VALUE": 0.0,
+   "NOTE": "of 120 non-incident lines"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05c",
+   "METRIC": "false_incidents_w05b",
+   "VALUE": 0.0,
+   "NOTE": "of 120 non-incident lines"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05c",
+   "METRIC": "incident_recall_info_w05",
+   "VALUE": 0.1,
+   "NOTE": "30 INFO incidents"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05c",
+   "METRIC": "incident_recall_info_w05b",
+   "VALUE": 0.5,
+   "NOTE": "30 INFO incidents"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05c",
+   "METRIC": "incident_recall_w05",
+   "VALUE": 0.35,
+   "NOTE": "60 incidents"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05c",
+   "METRIC": "incident_recall_w05b",
+   "VALUE": 0.583333,
+   "NOTE": "60 incidents"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w05c",
+   "METRIC": "rows",
+   "VALUE": 180.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w07",
+   "METRIC": "keyword_precision_at_5",
+   "VALUE": 0.0,
+   "NOTE": "shared-word ranking, same queries"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w07",
+   "METRIC": "keyword_queries_with_no_match",
+   "VALUE": 51.0,
+   "NOTE": "no word in common with any product"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w07",
+   "METRIC": "precision_at_5",
+   "VALUE": 0.666667,
+   "NOTE": "AI_EMBED + cosine similarity"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w07",
+   "METRIC": "products_embedded",
+   "VALUE": 10000.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w07",
+   "METRIC": "queries",
+   "VALUE": 60.0,
+   "NOTE": "held-out, no word shared with the target family"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w07",
+   "METRIC": "random_baseline",
+   "VALUE": 0.05,
+   "NOTE": "chance of a right-family hit"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w07",
+   "METRIC": "top1_accuracy",
+   "VALUE": 0.633333,
+   "NOTE": "nearest product only"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w08",
+   "METRIC": "audio_seconds",
+   "VALUE": 620.860815,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w08",
+   "METRIC": "avg_char_similarity",
+   "VALUE": 0.9939025,
+   "NOTE": "transcript vs script"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w08",
+   "METRIC": "calls",
+   "VALUE": 40.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w08",
+   "METRIC": "order_no_captured",
+   "VALUE": 1.0,
+   "NOTE": "calls that state an order number"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w08",
+   "METRIC": "sentiment_accuracy",
+   "VALUE": 0.5,
+   "NOTE": "positive/negative per script"
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w08",
+   "METRIC": "sentiment_cancelled_negative",
+   "VALUE": 10.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w08",
+   "METRIC": "sentiment_escalated_negative",
+   "VALUE": 10.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w08",
+   "METRIC": "sentiment_refund_mixed",
+   "VALUE": 10.0,
+   "NOTE": null
+  },
+  {
+   "RUN": "full",
+   "WORKLOAD": "w08",
+   "METRIC": "sentiment_resolved_mixed",
+   "VALUE": 10.0,
+   "NOTE": null
+  }
+ ],
+ "cost_by_workload": [
+  {
+   "WORKLOAD": "w01",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_EXTRACT",
+   "MODEL_NAME": "arctic-extract",
+   "AI_CREDITS": "1.245742",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w02:refresh_incremental_creation",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_CLASSIFY",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "3.431644",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w02:refresh_incremental_manual",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_CLASSIFY",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.068557",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w02b",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_CLASSIFY",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.926250",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w03",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_FILTER",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "1.619998",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w04",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_REDACT",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "2.413249",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w05",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_CLASSIFY",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "4.556044",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w05b",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_CLASSIFY",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.656879",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w06",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_AGG",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.237732",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w09",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_TRANSLATE",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.636093",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w09:classify",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_CLASSIFY",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.324577",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w10:judge",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_FILTER",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.193734",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w10:large",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_COMPLETE",
+   "MODEL_NAME": "llama3.3-70b",
+   "AI_CREDITS": "0.021876",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w10:small",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_COMPLETE",
+   "MODEL_NAME": "llama3.1-8b",
+   "AI_CREDITS": "0.215241",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w01",
+   "RUN": "pilot",
+   "FUNCTION_NAME": "AI_EXTRACT",
+   "MODEL_NAME": "arctic-extract",
+   "AI_CREDITS": "0.062249",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w02:refresh_incremental_creation",
+   "RUN": "pilot",
+   "FUNCTION_NAME": "AI_CLASSIFY",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.068711",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w02:refresh_incremental_manual",
+   "RUN": "pilot",
+   "FUNCTION_NAME": "AI_CLASSIFY",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.006874",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w03",
+   "RUN": "pilot",
+   "FUNCTION_NAME": "AI_FILTER",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.032408",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w04",
+   "RUN": "pilot",
+   "FUNCTION_NAME": "AI_REDACT",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.153850",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 2
+  },
+  {
+   "WORKLOAD": "w05",
+   "RUN": "pilot",
+   "FUNCTION_NAME": "AI_CLASSIFY",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.091164",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w06",
+   "RUN": "pilot",
+   "FUNCTION_NAME": "AI_AGG",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.019205",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w09",
+   "RUN": "pilot",
+   "FUNCTION_NAME": "AI_TRANSLATE",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.012602",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w09:classify",
+   "RUN": "pilot",
+   "FUNCTION_NAME": "AI_CLASSIFY",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.032432",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w10:judge",
+   "RUN": "pilot",
+   "FUNCTION_NAME": "AI_FILTER",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.012968",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w10:large",
+   "RUN": "pilot",
+   "FUNCTION_NAME": "AI_COMPLETE",
+   "MODEL_NAME": "llama3.3-70b",
+   "AI_CREDITS": "0.001476",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w10:small",
+   "RUN": "pilot",
+   "FUNCTION_NAME": "AI_COMPLETE",
+   "MODEL_NAME": "llama3.1-8b",
+   "AI_CREDITS": "0.004326",
+   "ROWS_WITHOUT_USER_ID": 0,
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w02c",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_CLASSIFY",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.217291",
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w05c",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_CLASSIFY",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.173975",
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w07",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_EMBED",
+   "MODEL_NAME": "snowflake-arctic-embed-m-v1.5",
+   "AI_CREDITS": "0.007168",
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w07:search",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_EMBED",
+   "MODEL_NAME": "snowflake-arctic-embed-m-v1.5",
+   "AI_CREDITS": "0.000015",
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w08",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_TRANSCRIBE",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.030091",
+   "BILLING_ROWS": 1
+  },
+  {
+   "WORKLOAD": "w08",
+   "RUN": "full",
+   "FUNCTION_NAME": "AI_SENTIMENT",
+   "MODEL_NAME": "",
+   "AI_CREDITS": "0.011827",
+   "BILLING_ROWS": 1
+  }
+ ],
+ "w02_refreshes": [
+  {
+   "RUN": "full",
+   "REFRESH_TRIGGER": "CREATION",
+   "REFRESH_ACTION": "INCREMENTAL",
+   "INSERTED_ROWS": 10000,
+   "SECONDS": "51.309000"
+  },
+  {
+   "RUN": "full",
+   "REFRESH_TRIGGER": "MANUAL",
+   "REFRESH_ACTION": "INCREMENTAL",
+   "INSERTED_ROWS": 200,
+   "SECONDS": "14.740000"
+  },
+  {
+   "RUN": "full",
+   "REFRESH_TRIGGER": "MANUAL",
+   "REFRESH_ACTION": "NO_DATA",
+   "INSERTED_ROWS": 0,
+   "SECONDS": "0.613000"
+  },
+  {
+   "RUN": "pilot",
+   "REFRESH_TRIGGER": "CREATION",
+   "REFRESH_ACTION": "INCREMENTAL",
+   "INSERTED_ROWS": 200,
+   "SECONDS": "14.583000"
+  },
+  {
+   "RUN": "pilot",
+   "REFRESH_TRIGGER": "MANUAL",
+   "REFRESH_ACTION": "INCREMENTAL",
+   "INSERTED_ROWS": 20,
+   "SECONDS": "6.919000"
+  },
+  {
+   "RUN": "pilot",
+   "REFRESH_TRIGGER": "MANUAL",
+   "REFRESH_ACTION": "NO_DATA",
+   "INSERTED_ROWS": 0,
+   "SECONDS": "0.637000"
+  }
+ ],
+ "w02_misroutes": [
+  {
+   "TRUE_CATEGORY": "account_access",
+   "CATEGORY": "account_access",
+   "N": 1244
+  },
+  {
+   "TRUE_CATEGORY": "billing",
+   "CATEGORY": "billing",
+   "N": 1485
+  },
+  {
+   "TRUE_CATEGORY": "billing",
+   "CATEGORY": "account_access",
+   "N": 338
+  },
+  {
+   "TRUE_CATEGORY": "billing",
+   "CATEGORY": "returns",
+   "N": 306
+  },
+  {
+   "TRUE_CATEGORY": "product_defect",
+   "CATEGORY": "product_defect",
+   "N": 1703
+  },
+  {
+   "TRUE_CATEGORY": "returns",
+   "CATEGORY": "returns",
+   "N": 1449
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY": "safety",
+   "N": 359
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY": "product_defect",
+   "N": 190
+  },
+  {
+   "TRUE_CATEGORY": "shipping",
+   "CATEGORY": "shipping",
+   "N": 2092
+  }
+ ],
+ "w02b_samples": [
+  {
+   "BODY": "To whom it may concern, The Summit hiking boots got very hot and smelled like burning plastic. I have been a customer for years. Waiting for a reply.",
+   "CATEGORY_BEFORE": "product_defect",
+   "CATEGORY_AFTER": "safety"
+  },
+  {
+   "BODY": "To whom it may concern, A part of the Glide office chair snapped off and flew across the room. My order number is above. Please help.",
+   "CATEGORY_BEFORE": "product_defect",
+   "CATEGORY_AFTER": "safety"
+  },
+  {
+   "BODY": "To whom it may concern, The Glide office chair got very hot and smelled like burning plastic. This is the second time this month. Regards.",
+   "CATEGORY_BEFORE": "product_defect",
+   "CATEGORY_AFTER": "safety"
+  },
+  {
+   "BODY": "Hi there, The Pulse fitness band got very hot and smelled like burning plastic. My order number is above. Thanks.",
+   "CATEGORY_BEFORE": "product_defect",
+   "CATEGORY_AFTER": "safety"
+  },
+  {
+   "BODY": "Hi there, A part of the Harbor coffee grinder snapped off and flew across the room. This is the second time this month. Please help.",
+   "CATEGORY_BEFORE": "product_defect",
+   "CATEGORY_AFTER": "safety"
+  }
+ ],
+ "w02b_new_errors": [
+  {
+   "TRUE_CATEGORY": "product_defect",
+   "CATEGORY_AFTER": "safety",
+   "N": 15
+  }
+ ],
+ "w05b_patterns": [
+  {
+   "PATTERN": "INFO firewall rule allowing #.#.#.#/# added to database port by u#",
+   "CLASS_BEFORE": "incident",
+   "CLASS_AFTER": "incident",
+   "N": 33
+  },
+  {
+   "PATTERN": "INFO firewall rule allowing #.#.#.#/# added to database port by u#",
+   "CLASS_BEFORE": "routine",
+   "CLASS_AFTER": "incident",
+   "N": 14
+  },
+  {
+   "PATTERN": "INFO user u# downloaded #,# customer records to an external drive",
+   "CLASS_BEFORE": "incident",
+   "CLASS_AFTER": "incident",
+   "N": 54
+  },
+  {
+   "PATTERN": "INFO user u# granted ACCOUNTADMIN to new user temp_#",
+   "CLASS_BEFORE": "incident",
+   "CLASS_AFTER": "incident",
+   "N": 2
+  },
+  {
+   "PATTERN": "INFO user u# granted ACCOUNTADMIN to new user temp_#",
+   "CLASS_BEFORE": "routine",
+   "CLASS_AFTER": "incident",
+   "N": 42
+  },
+  {
+   "PATTERN": "WARN # failed logins for user admin from #.#.#.# in #s",
+   "CLASS_BEFORE": "incident",
+   "CLASS_AFTER": "incident",
+   "N": 50
+  },
+  {
+   "PATTERN": "WARN login for user u# from #.#.#.# # minutes after a login from another continent",
+   "CLASS_BEFORE": "incident",
+   "CLASS_AFTER": "incident",
+   "N": 55
+  },
+  {
+   "PATTERN": "WARN new API key created for service account at #:# from #.#.#.#",
+   "CLASS_BEFORE": "incident",
+   "CLASS_AFTER": "incident",
+   "N": 39
+  },
+  {
+   "PATTERN": "WARN new API key created for service account at #:# from #.#.#.#",
+   "CLASS_BEFORE": "routine",
+   "CLASS_AFTER": "incident",
+   "N": 2
+  }
+ ],
+ "w04_samples": [
+  {
+   "NOTE_REDACTED": "[NAME] asked to send the contract to [EMAIL]."
+  },
+  {
+   "NOTE_REDACTED": "Ship the replacement to [ADDRESS]. Contact [NAME] if it fails."
+  },
+  {
+   "NOTE_REDACTED": "Spoke with [NAME]. Call back on [PHONE_NUMBER] after 3pm."
+  },
+  {
+   "NOTE_REDACTED": "Ship the replacement to [ADDRESS]. Contact [NAME] if it fails."
+  },
+  {
+   "NOTE_REDACTED": "Ship the replacement to [ADDRESS]. Contact [NAME] if it fails."
+  },
+  {
+   "NOTE_REDACTED": "[NAME] confirmed the new phone number [PHONE_NUMBER] and email [EMAIL]."
+  }
+ ],
+ "w06_answers": [
+  {
+   "PRODUCT": "Model A1",
+   "TRUE_KEY": "battery",
+   "SHARE": "0.66",
+   "REVIEWS": 197,
+   "MATCHED": true,
+   "ANSWER": "Battery dies too fast."
+  },
+  {
+   "PRODUCT": "Model A10",
+   "TRUE_KEY": "overheating",
+   "SHARE": "0.62",
+   "REVIEWS": 185,
+   "MATCHED": true,
+   "ANSWER": "Gets too hot to touch."
+  },
+  {
+   "PRODUCT": "Model A2",
+   "TRUE_KEY": "fit",
+   "SHARE": "0.64",
+   "REVIEWS": 193,
+   "MATCHED": true,
+   "ANSWER": "Sizing runs two sizes small."
+  },
+  {
+   "PRODUCT": "Model A3",
+   "TRUE_KEY": "noise",
+   "SHARE": "0.56",
+   "REVIEWS": 188,
+   "MATCHED": true,
+   "ANSWER": "Much louder than advertised."
+  },
+  {
+   "PRODUCT": "Model A4",
+   "TRUE_KEY": "instructions",
+   "SHARE": "0.65",
+   "REVIEWS": 205,
+   "MATCHED": true,
+   "ANSWER": "impossible to follow instructions"
+  },
+  {
+   "PRODUCT": "Model A5",
+   "TRUE_KEY": "durability",
+   "SHARE": "0.80",
+   "REVIEWS": 188,
+   "MATCHED": true,
+   "ANSWER": "Fell apart within a month."
+  },
+  {
+   "PRODUCT": "Model A6",
+   "TRUE_KEY": "smell",
+   "SHARE": "0.67",
+   "REVIEWS": 194,
+   "MATCHED": true,
+   "ANSWER": "Strong chemical smell."
+  },
+  {
+   "PRODUCT": "Model A7",
+   "TRUE_KEY": "app",
+   "SHARE": "0.70",
+   "REVIEWS": 209,
+   "MATCHED": true,
+   "ANSWER": "Companion app keeps crashing."
+  },
+  {
+   "PRODUCT": "Model A8",
+   "TRUE_KEY": "delivery_damage",
+   "SHARE": "0.60",
+   "REVIEWS": 213,
+   "MATCHED": true,
+   "ANSWER": "Arrives scratched or dented."
+  },
+  {
+   "PRODUCT": "Model A9",
+   "TRUE_KEY": "missing_parts",
+   "SHARE": "0.60",
+   "REVIEWS": 204,
+   "MATCHED": true,
+   "ANSWER": "Screws and parts are missing from the box."
+  },
+  {
+   "PRODUCT": "Model B1",
+   "TRUE_KEY": "battery",
+   "SHARE": "0.72",
+   "REVIEWS": 190,
+   "MATCHED": true,
+   "ANSWER": "Battery dies too fast."
+  },
+  {
+   "PRODUCT": "Model B10",
+   "TRUE_KEY": "overheating",
+   "SHARE": "0.70",
+   "REVIEWS": 213,
+   "MATCHED": true,
+   "ANSWER": "Gets too hot to touch."
+  },
+  {
+   "PRODUCT": "Model B2",
+   "TRUE_KEY": "fit",
+   "SHARE": "0.51",
+   "REVIEWS": 215,
+   "MATCHED": true,
+   "ANSWER": "Sizing runs two sizes small."
+  },
+  {
+   "PRODUCT": "Model B3",
+   "TRUE_KEY": "noise",
+   "SHARE": "0.51",
+   "REVIEWS": 225,
+   "MATCHED": true,
+   "ANSWER": "Much louder than advertised."
+  },
+  {
+   "PRODUCT": "Model B4",
+   "TRUE_KEY": "instructions",
+   "SHARE": "0.74",
+   "REVIEWS": 182,
+   "MATCHED": true,
+   "ANSWER": "Impossible instructions"
+  },
+  {
+   "PRODUCT": "Model B5",
+   "TRUE_KEY": "durability",
+   "SHARE": "0.66",
+   "REVIEWS": 211,
+   "MATCHED": true,
+   "ANSWER": "Fell apart within a month."
+  },
+  {
+   "PRODUCT": "Model B6",
+   "TRUE_KEY": "smell",
+   "SHARE": "0.60",
+   "REVIEWS": 205,
+   "MATCHED": true,
+   "ANSWER": "Strong chemical smell."
+  },
+  {
+   "PRODUCT": "Model B7",
+   "TRUE_KEY": "app",
+   "SHARE": "0.75",
+   "REVIEWS": 212,
+   "MATCHED": true,
+   "ANSWER": "Companion app keeps crashing."
+  },
+  {
+   "PRODUCT": "Model B8",
+   "TRUE_KEY": "delivery_damage",
+   "SHARE": "0.68",
+   "REVIEWS": 165,
+   "MATCHED": true,
+   "ANSWER": "Arrives scratched or dented."
+  },
+  {
+   "PRODUCT": "Model B9",
+   "TRUE_KEY": "missing_parts",
+   "SHARE": "0.68",
+   "REVIEWS": 195,
+   "MATCHED": true,
+   "ANSWER": "Screws and parts are missing from the box."
+  },
+  {
+   "PRODUCT": "Model C1",
+   "TRUE_KEY": "battery",
+   "SHARE": "0.63",
+   "REVIEWS": 202,
+   "MATCHED": true,
+   "ANSWER": "Battery dies too fast."
+  },
+  {
+   "PRODUCT": "Model C10",
+   "TRUE_KEY": "overheating",
+   "SHARE": "0.65",
+   "REVIEWS": 198,
+   "MATCHED": true,
+   "ANSWER": "Gets too hot to touch."
+  },
+  {
+   "PRODUCT": "Model C2",
+   "TRUE_KEY": "fit",
+   "SHARE": "0.68",
+   "REVIEWS": 192,
+   "MATCHED": true,
+   "ANSWER": "Sizing runs small"
+  },
+  {
+   "PRODUCT": "Model C3",
+   "TRUE_KEY": "noise",
+   "SHARE": "0.63",
+   "REVIEWS": 207,
+   "MATCHED": true,
+   "ANSWER": "Louder than advertised"
+  },
+  {
+   "PRODUCT": "Model C4",
+   "TRUE_KEY": "instructions",
+   "SHARE": "0.61",
+   "REVIEWS": 190,
+   "MATCHED": true,
+   "ANSWER": "impossible to follow instructions"
+  },
+  {
+   "PRODUCT": "Model C5",
+   "TRUE_KEY": "durability",
+   "SHARE": "0.77",
+   "REVIEWS": 203,
+   "MATCHED": true,
+   "ANSWER": "Fell apart within a month."
+  },
+  {
+   "PRODUCT": "Model C6",
+   "TRUE_KEY": "smell",
+   "SHARE": "0.55",
+   "REVIEWS": 194,
+   "MATCHED": true,
+   "ANSWER": "Strong chemical smell."
+  },
+  {
+   "PRODUCT": "Model C7",
+   "TRUE_KEY": "app",
+   "SHARE": "0.66",
+   "REVIEWS": 183,
+   "MATCHED": true,
+   "ANSWER": "Companion app keeps crashing."
+  },
+  {
+   "PRODUCT": "Model C8",
+   "TRUE_KEY": "delivery_damage",
+   "SHARE": "0.69",
+   "REVIEWS": 184,
+   "MATCHED": true,
+   "ANSWER": "Arrives scratched or dented."
+  },
+  {
+   "PRODUCT": "Model C9",
+   "TRUE_KEY": "missing_parts",
+   "SHARE": "0.62",
+   "REVIEWS": 201,
+   "MATCHED": true,
+   "ANSWER": "Screws and parts are missing from the box."
+  },
+  {
+   "PRODUCT": "Model D1",
+   "TRUE_KEY": "battery",
+   "SHARE": "0.70",
+   "REVIEWS": 199,
+   "MATCHED": true,
+   "ANSWER": "Battery dies too fast."
+  },
+  {
+   "PRODUCT": "Model D10",
+   "TRUE_KEY": "overheating",
+   "SHARE": "0.59",
+   "REVIEWS": 195,
+   "MATCHED": true,
+   "ANSWER": "Gets too hot to touch."
+  },
+  {
+   "PRODUCT": "Model D2",
+   "TRUE_KEY": "fit",
+   "SHARE": "0.59",
+   "REVIEWS": 196,
+   "MATCHED": true,
+   "ANSWER": "sizing runs two sizes small"
+  },
+  {
+   "PRODUCT": "Model D3",
+   "TRUE_KEY": "noise",
+   "SHARE": "0.64",
+   "REVIEWS": 230,
+   "MATCHED": true,
+   "ANSWER": "Much louder than advertised."
+  },
+  {
+   "PRODUCT": "Model D4",
+   "TRUE_KEY": "instructions",
+   "SHARE": "0.55",
+   "REVIEWS": 245,
+   "MATCHED": true,
+   "ANSWER": "impossible to follow instructions"
+  },
+  {
+   "PRODUCT": "Model D5",
+   "TRUE_KEY": "durability",
+   "SHARE": "0.66",
+   "REVIEWS": 204,
+   "MATCHED": true,
+   "ANSWER": "Fell apart within a month."
+  },
+  {
+   "PRODUCT": "Model D6",
+   "TRUE_KEY": "smell",
+   "SHARE": "0.69",
+   "REVIEWS": 180,
+   "MATCHED": true,
+   "ANSWER": "Strong chemical smell."
+  },
+  {
+   "PRODUCT": "Model D7",
+   "TRUE_KEY": "app",
+   "SHARE": "0.62",
+   "REVIEWS": 180,
+   "MATCHED": true,
+   "ANSWER": "Companion app keeps crashing."
+  },
+  {
+   "PRODUCT": "Model D8",
+   "TRUE_KEY": "delivery_damage",
+   "SHARE": "0.76",
+   "REVIEWS": 212,
+   "MATCHED": true,
+   "ANSWER": "Arrives scratched or dented."
+  },
+  {
+   "PRODUCT": "Model D9",
+   "TRUE_KEY": "missing_parts",
+   "SHARE": "0.66",
+   "REVIEWS": 181,
+   "MATCHED": true,
+   "ANSWER": "Screws and parts are missing from the box."
+  },
+  {
+   "PRODUCT": "Model E1",
+   "TRUE_KEY": "battery",
+   "SHARE": "0.59",
+   "REVIEWS": 180,
+   "MATCHED": true,
+   "ANSWER": "Battery dies too fast."
+  },
+  {
+   "PRODUCT": "Model E10",
+   "TRUE_KEY": "overheating",
+   "SHARE": "0.53",
+   "REVIEWS": 209,
+   "MATCHED": true,
+   "ANSWER": "Gets too hot to touch."
+  },
+  {
+   "PRODUCT": "Model E2",
+   "TRUE_KEY": "fit",
+   "SHARE": "0.64",
+   "REVIEWS": 200,
+   "MATCHED": true,
+   "ANSWER": "Sizing runs two sizes small."
+  },
+  {
+   "PRODUCT": "Model E3",
+   "TRUE_KEY": "noise",
+   "SHARE": "0.62",
+   "REVIEWS": 199,
+   "MATCHED": true,
+   "ANSWER": "Louder than advertised"
+  },
+  {
+   "PRODUCT": "Model E4",
+   "TRUE_KEY": "instructions",
+   "SHARE": "0.60",
+   "REVIEWS": 203,
+   "MATCHED": true,
+   "ANSWER": "Impossible to follow instructions"
+  },
+  {
+   "PRODUCT": "Model E5",
+   "TRUE_KEY": "durability",
+   "SHARE": "0.74",
+   "REVIEWS": 188,
+   "MATCHED": true,
+   "ANSWER": "Fell apart within a month."
+  },
+  {
+   "PRODUCT": "Model E6",
+   "TRUE_KEY": "smell",
+   "SHARE": "0.68",
+   "REVIEWS": 221,
+   "MATCHED": true,
+   "ANSWER": "Strong chemical smell."
+  },
+  {
+   "PRODUCT": "Model E7",
+   "TRUE_KEY": "app",
+   "SHARE": "0.67",
+   "REVIEWS": 205,
+   "MATCHED": true,
+   "ANSWER": "Companion app keeps crashing."
+  },
+  {
+   "PRODUCT": "Model E8",
+   "TRUE_KEY": "delivery_damage",
+   "SHARE": "0.71",
+   "REVIEWS": 192,
+   "MATCHED": true,
+   "ANSWER": "Arrives scratched or dented."
+  },
+  {
+   "PRODUCT": "Model E9",
+   "TRUE_KEY": "missing_parts",
+   "SHARE": "0.70",
+   "REVIEWS": 238,
+   "MATCHED": true,
+   "ANSWER": "Screws and parts are missing from the box."
+  }
+ ],
+ "w07_query_hits": [
+  {
+   "Q": "hands free glow during predawn dog walks",
+   "WANT": "headlamp",
+   "TOP5": "bike light, bike light, bike light, headlamp, bike light"
+  },
+  {
+   "Q": "see trail markers before sunrise without holding anything",
+   "WANT": "headlamp",
+   "TOP5": "headlamp, headlamp, headlamp, headlamp, headlamp"
+  },
+  {
+   "Q": "night chores outside while both hands stay available",
+   "WANT": "headlamp",
+   "TOP5": "fitness band, tent, tent, tent, tent"
+  },
+  {
+   "Q": "turn frozen fruit into breakfast puree",
+   "WANT": "blender",
+   "TOP5": "blender, blender, blender, blender, blender"
+  },
+  {
+   "Q": "make silky soups from roasted vegetables",
+   "WANT": "blender",
+   "TOP5": "blender, blender, blender, blender, blender"
+  },
+  {
+   "Q": "quickly crush oats nuts berries together",
+   "WANT": "blender",
+   "TOP5": "blender, blender, blender, blender, blender"
+  },
+  {
+   "Q": "stay dry on stormy city commutes",
+   "WANT": "rain jacket",
+   "TOP5": "rain jacket, rain jacket, rain jacket, rain jacket, rain jacket"
+  },
+  {
+   "Q": "outer layer during sudden downpours",
+   "WANT": "rain jacket",
+   "TOP5": "rain jacket, rain jacket, rain jacket, rain jacket, rain jacket"
+  },
+  {
+   "Q": "shell to wear in windy drizzle",
+   "WANT": "rain jacket",
+   "TOP5": "rain jacket, rain jacket, rain jacket, rain jacket, rain jacket"
+  },
+  {
+   "Q": "keep phone alive through long layovers",
+   "WANT": "power bank",
+   "TOP5": "headphones, headphones, headphones, power bank, headphones"
+  },
+  {
+   "Q": "extra juice during all day festivals",
+   "WANT": "power bank",
+   "TOP5": "power bank, power bank, power bank, power bank, power bank"
+  },
+  {
+   "Q": "refill gadgets far from wall outlets",
+   "WANT": "power bank",
+   "TOP5": "power bank, power bank, power bank, power bank, power bank"
+  },
+  {
+   "Q": "footwear suited to rocky uphill miles",
+   "WANT": "hiking boots",
+   "TOP5": "hiking boots, hiking boots, hiking boots, hiking boots, hiking boots"
+  },
+  {
+   "Q": "supportive pair on muddy trails",
+   "WANT": "hiking boots",
+   "TOP5": "hiking boots, hiking boots, hiking boots, hiking boots, hiking boots"
+  },
+  {
+   "Q": "something sturdy across uneven ground",
+   "WANT": "hiking boots",
+   "TOP5": "tent, tent, tent, tent, tent"
+  },
+  {
+   "Q": "room audio plus spoken timers",
+   "WANT": "smart speaker",
+   "TOP5": "smart speaker, smart speaker, smart speaker, smart speaker, smart speaker"
+  },
+  {
+   "Q": "playlists weather trivia from one device",
+   "WANT": "smart speaker",
+   "TOP5": "smart speaker, smart speaker, smart speaker, smart speaker, smart speaker"
+  },
+  {
+   "Q": "kitchen companion that responds across the room",
+   "WANT": "smart speaker",
+   "TOP5": "air fryer, air fryer, smart speaker, smart speaker, air fryer"
+  },
+  {
+   "Q": "seat suited to long drafting sessions",
+   "WANT": "office chair",
+   "TOP5": "keyboard, keyboard, keyboard, keyboard, keyboard"
+  },
+  {
+   "Q": "all day support at my workstation",
+   "WANT": "office chair",
+   "TOP5": "keyboard, keyboard, keyboard, keyboard, keyboard"
+  },
+  {
+   "Q": "something comfy through eight hour spreadsheets",
+   "WANT": "office chair",
+   "TOP5": "fitness band, fitness band, fitness band, fitness band, keyboard"
+  },
+  {
+   "Q": "wrist tracker during daily workouts",
+   "WANT": "fitness band",
+   "TOP5": "fitness band, fitness band, fitness band, fitness band, fitness band"
+  },
+  {
+   "Q": "activity stats without carrying a phone",
+   "WANT": "fitness band",
+   "TOP5": "fitness band, fitness band, fitness band, fitness band, fitness band"
+  },
+  {
+   "Q": "simple wearable with recovery stats",
+   "WANT": "fitness band",
+   "TOP5": "fitness band, fitness band, fitness band, fitness band, fitness band"
+  },
+  {
+   "Q": "fresh grounds before brewing each morning",
+   "WANT": "coffee grinder",
+   "TOP5": "coffee grinder, coffee grinder, coffee grinder, coffee grinder, coffee grinder"
+  },
+  {
+   "Q": "uniform particles suited to pour over",
+   "WANT": "coffee grinder",
+   "TOP5": "blender, blender, blender, blender, blender"
+  },
+  {
+   "Q": "crush whole beans at home",
+   "WANT": "coffee grinder",
+   "TOP5": "blender, blender, blender, coffee grinder, coffee grinder"
+  },
+  {
+   "Q": "focused glow over paperwork after dusk",
+   "WANT": "desk lamp",
+   "TOP5": "keyboard, keyboard, keyboard, keyboard, keyboard"
+  },
+  {
+   "Q": "clearer sight while sketching indoors",
+   "WANT": "desk lamp",
+   "TOP5": "keyboard, keyboard, keyboard, keyboard, keyboard"
+  },
+  {
+   "Q": "task illumination during late night reading",
+   "WANT": "desk lamp",
+   "TOP5": "keyboard, desk lamp, keyboard, keyboard, keyboard"
+  },
+  {
+   "Q": "shelter overnight in remote campsites",
+   "WANT": "tent",
+   "TOP5": "tent, tent, tent, tent, tent"
+  },
+  {
+   "Q": "place to wait out alpine weather",
+   "WANT": "tent",
+   "TOP5": "sleeping bag, sleeping bag, sleeping bag, tent, tent"
+  },
+  {
+   "Q": "temporary shelter across multi day treks",
+   "WANT": "tent",
+   "TOP5": "tent, tent, tent, tent, tent"
+  },
+  {
+   "Q": "warm cocoon during chilly trail nights",
+   "WANT": "sleeping bag",
+   "TOP5": "sleeping bag, sleeping bag, sleeping bag, sleeping bag, sleeping bag"
+  },
+  {
+   "Q": "compact bedding on cold overnights",
+   "WANT": "sleeping bag",
+   "TOP5": "sleeping bag, sleeping bag, sleeping bag, sleeping bag, sleeping bag"
+  },
+  {
+   "Q": "cozy sack on cold dawn camps",
+   "WANT": "sleeping bag",
+   "TOP5": "tent, tent, tent, sleeping bag, sleeping bag"
+  },
+  {
+   "Q": "sip all day without lukewarm drinks",
+   "WANT": "water bottle",
+   "TOP5": "water bottle, water bottle, water bottle, blender, blender"
+  },
+  {
+   "Q": "leak free container during commuting",
+   "WANT": "water bottle",
+   "TOP5": "water bottle, water bottle, water bottle, water bottle, water bottle"
+  },
+  {
+   "Q": "something to carry tea on trains",
+   "WANT": "water bottle",
+   "TOP5": "backpack, power bank, power bank, backpack, backpack"
+  },
+  {
+   "Q": "carry daily gear across town comfortably",
+   "WANT": "backpack",
+   "TOP5": "backpack, backpack, backpack, backpack, sleeping bag"
+  },
+  {
+   "Q": "haul books lunch plus sweater",
+   "WANT": "backpack",
+   "TOP5": "backpack, backpack, backpack, backpack, backpack"
+  },
+  {
+   "Q": "commuter storage with quick access",
+   "WANT": "backpack",
+   "TOP5": "power bank, power bank, power bank, power bank, power bank"
+  },
+  {
+   "Q": "private listening on crowded flights",
+   "WANT": "headphones",
+   "TOP5": "headphones, headphones, headphones, headphones, headphones"
+  },
+  {
+   "Q": "better sound during train commutes",
+   "WANT": "headphones",
+   "TOP5": "headphones, headphones, headphones, headphones, headphones"
+  },
+  {
+   "Q": "over head audio during editing",
+   "WANT": "headphones",
+   "TOP5": "headphones, headphones, smart speaker, headphones, headphones"
+  },
+  {
+   "Q": "faster typing while coding at home",
+   "WANT": "keyboard",
+   "TOP5": "keyboard, keyboard, keyboard, keyboard, keyboard"
+  },
+  {
+   "Q": "keys that feel crisp under fingers",
+   "WANT": "keyboard",
+   "TOP5": "keyboard, keyboard, keyboard, keyboard, keyboard"
+  },
+  {
+   "Q": "upgrade cramped builtin input surface",
+   "WANT": "keyboard",
+   "TOP5": "keyboard, keyboard, keyboard, keyboard, keyboard"
+  },
+  {
+   "Q": "crispy leftovers with little cleanup",
+   "WANT": "air fryer",
+   "TOP5": "air fryer, air fryer, air fryer, air fryer, air fryer"
+  },
+  {
+   "Q": "weeknight roasting with small portions",
+   "WANT": "air fryer",
+   "TOP5": "air fryer, air fryer, air fryer, air fryer, air fryer"
+  },
+  {
+   "Q": "quick browning on frozen snacks",
+   "WANT": "air fryer",
+   "TOP5": "blender, air fryer, air fryer, blender, blender"
+  },
+  {
+   "Q": "surface during floor stretches",
+   "WANT": "yoga mat",
+   "TOP5": "yoga mat, yoga mat, yoga mat, yoga mat, yoga mat"
+  },
+  {
+   "Q": "cushioning during pilates at home",
+   "WANT": "yoga mat",
+   "TOP5": "yoga mat, yoga mat, yoga mat, yoga mat, yoga mat"
+  },
+  {
+   "Q": "rollout pad during mobility work",
+   "WANT": "yoga mat",
+   "TOP5": "keyboard, keyboard, keyboard, keyboard, keyboard"
+  },
+  {
+   "Q": "be seen on dusk commutes",
+   "WANT": "bike light",
+   "TOP5": "keyboard, sleeping bag, keyboard, keyboard, keyboard"
+  },
+  {
+   "Q": "noticeable glow before sunrise rides",
+   "WANT": "bike light",
+   "TOP5": "bike light, bike light, bike light, bike light, bike light"
+  },
+  {
+   "Q": "safer evening travel through traffic",
+   "WANT": "bike light",
+   "TOP5": "fitness band, headphones, headphones, fitness band, fitness band"
+  },
+  {
+   "Q": "pick up crumbs from rugs quickly",
+   "WANT": "vacuum",
+   "TOP5": "vacuum, vacuum, vacuum, vacuum, vacuum"
+  },
+  {
+   "Q": "clean pet fur off the stairs",
+   "WANT": "vacuum",
+   "TOP5": "vacuum, vacuum, vacuum, vacuum, vacuum"
+  },
+  {
+   "Q": "grab dust from tight corners",
+   "WANT": "vacuum",
+   "TOP5": "blender, vacuum, blender, blender, blender"
+  }
+ ],
+ "w08_samples": [
+  {
+   "FILE": "call_001.mp3",
+   "OUTCOME": "resolved",
+   "TRUE_SENTIMENT": "positive",
+   "SENTIMENT": "mixed",
+   "SIM": "1.000",
+   "TRANSCRIPT": "Thanks for calling, how can I help? My order A812768 arrived damaged, I'm sorry about that. I'll send a replacement today with free express shipping, that's great, thank you so much. You're welcome, the replacement arrives Thursday."
+  },
+  {
+   "FILE": "call_002.mp3",
+   "OUTCOME": "refund",
+   "TRUE_SENTIMENT": "positive",
+   "SENTIMENT": "mixed",
+   "SIM": "1.000",
+   "TRANSCRIPT": "Support, this is Sam. I returned the Volt Power Bank two weeks ago and I'm still waiting. I see the return. I've issued the refund now. It shows in three to five days. Perfect. I appreciate the quick help."
+  },
+  {
+   "FILE": "call_003.mp3",
+   "OUTCOME": "escalated",
+   "TRUE_SENTIMENT": "negative",
+   "SENTIMENT": "negative",
+   "SIM": "1.000",
+   "TRANSCRIPT": "Hello, how can I help? This is the third time I'm calling about order A103067, I understand. I can't fix it from here, so I'm escalating to a supervisor. This is ridiculous, I've wasted hours on this. I'm sorry, a supervisor will call you tomorrow."
+  },
+  {
+   "FILE": "call_004.mp3",
+   "OUTCOME": "cancelled",
+   "TRUE_SENTIMENT": "negative",
+   "SENTIMENT": "negative",
+   "SIM": "0.976",
+   "TRANSCRIPT": "Thanks for calling, I want to cancel my subscription, the price went up again. I can offer a discount for 3 months, no, I'm done, please cancel it now. Okay, the subscription is cancelled, I'm sorry to see you go."
+  }
+ ],
+ "w09_samples": [
+  {
+   "LANG": "de",
+   "BODY": "Ich möchte den Summit hiking boots aus Bestellung A-992842 zurückgeben.",
+   "BODY_EN": "I wish to return the summit hiking boots. order A-992842."
+  },
+  {
+   "LANG": "de",
+   "BODY": "Der TrailLite headlamp funktionierte nach drei Tagen nicht mehr.",
+   "BODY_EN": "The TrailLite headlamp stopped working after three days."
+  },
+  {
+   "LANG": "es",
+   "BODY": "El Summit hiking boots dejó de funcionar a los tres días.",
+   "BODY_EN": "The Summit hiking boots stopped working after three days."
+  },
+  {
+   "LANG": "es",
+   "BODY": "El Glide office chair se calentó mucho y olía a plástico quemado.",
+   "BODY_EN": "The Glide office chair got very hot and smelled of burning plastic."
+  },
+  {
+   "LANG": "fr",
+   "BODY": "On m'a facturé deux fois la commande A-146229.",
+   "BODY_EN": "I was double charged for order A-146229."
+  },
+  {
+   "LANG": "fr",
+   "BODY": "Le Pulse fitness band est devenu très chaud et sentait le plastique brûlé.",
+   "BODY_EN": "the pulse fitness band got very hot and smelt of burning plastic ."
+  },
+  {
+   "LANG": "ja",
+   "BODY": "注文A-260303は配達済みになっていますが、何も届いていません。",
+   "BODY_EN": "Order A-260303 shows as delivered but I have received nothing."
+  },
+  {
+   "LANG": "ja",
+   "BODY": "注文A-296784は配達済みになっていますが、何も届いていません。",
+   "BODY_EN": "Order A-296784 shows as delivered but I have received nothing."
+  },
+  {
+   "LANG": "pt",
+   "BODY": "O TrailLite headlamp parou de funcionar depois de três dias.",
+   "BODY_EN": "The TrailLite headlamp stopped working after three days."
+  },
+  {
+   "LANG": "pt",
+   "BODY": "O Volt power bank parou de funcionar depois de três dias.",
+   "BODY_EN": "The Volt power bank stopped working after three days."
+  }
+ ],
+ "w09_order_ref_misses": [
+  {
+   "LANG": "es",
+   "BODY": "Quiero devolver el AeroBlend blender del pedido A-957972.",
+   "BODY_EN": "I want to return the AeroBlend blender I ordered on 9/5/72.",
+   "ORDER_REF": "A-957972"
+  },
+  {
+   "LANG": "ja",
+   "BODY": "注文A-111479のEcho smart speakerを返品したいです。",
+   "BODY_EN": "I wish to return the echo dot I ordered under order number 111479",
+   "ORDER_REF": "A-111479"
+  },
+  {
+   "LANG": "ja",
+   "BODY": "注文A-257783のEcho smart speakerを返品したいです。",
+   "BODY_EN": "I wish to return the echo dot - order number 257783",
+   "ORDER_REF": "A-257783"
+  },
+  {
+   "LANG": "ja",
+   "BODY": "注文A-332162のEcho smart speakerを返品したいです。",
+   "BODY_EN": "I wish to return the echo dot - order number 332162",
+   "ORDER_REF": "A-332162"
+  },
+  {
+   "LANG": "ja",
+   "BODY": "注文A-363380のEcho smart speakerを返品したいです。",
+   "BODY_EN": "I wish to return the echo dot - order number 363380",
+   "ORDER_REF": "A-363380"
+  },
+  {
+   "LANG": "ja",
+   "BODY": "注文A-382682のEcho smart speakerを返品したいです。",
+   "BODY_EN": "I wish to return the echo dot - order number 382682",
+   "ORDER_REF": "A-382682"
+  },
+  {
+   "LANG": "ja",
+   "BODY": "注文A-767327のEcho smart speakerを返品したいです。",
+   "BODY_EN": "I wish to return the echo dot - order number 767327",
+   "ORDER_REF": "A-767327"
+  },
+  {
+   "LANG": "fr",
+   "BODY": "Je veux retourner le AeroBlend blender de la commande A-180097.",
+   "BODY_EN": "I want to return the AeroBlend blender I ordered on 10-18-0097.",
+   "ORDER_REF": "A-180097"
+  },
+  {
+   "LANG": "pt",
+   "BODY": "Quero devolver o AeroBlend blender do pedido A-865657.",
+   "BODY_EN": "I want to return the AeroBlend blender I ordered on 8-6-57.",
+   "ORDER_REF": "A-865657"
+  }
+ ],
+ "w10_samples": [
+  {
+   "ID": 13,
+   "BODY": "I can't find where to change my password. I need this sorted before the weekend.",
+   "REPLY_SMALL": "\"Thank you for reaching out to us about the issue with changing your password. I'd be happy to help you with this - could you please check your email inbox for a password reset link that was sent to you when you first created your account, or click on the \\\"Forgot Password\\\" option on our website's login page to initiate the password reset process?\"",
+   "REPLY_LARGE": "\"I apologize for the inconvenience you're experiencing with changing your password, and I'm happy to help you with this issue. I'll be looking into this further and will respond with instructions on how to update your password or alternative solutions to assist you. Please allow me to investigate this matter, and I will be in touch with you shortly to provide the next steps.\"",
+   "PASS_SMALL": false,
+   "PASS_LARGE": true
+  },
+  {
+   "ID": 170,
+   "BODY": "To whom it may concern, How do I get a return label for order A-617248? This is the second time this month.",
+   "REPLY_SMALL": "\"Dear valued customer, \\n\\nThank you for reaching out to us about your return request for order A-617248. I'm happy to assist you with this. To proceed, could you please reply to this email with your order details and a brief explanation of the reason for the return, so I can look into this further and provide you with a return label?\"",
+   "REPLY_LARGE": "\"I apologize for the inconvenience you're experiencing with your order A-617248 and appreciate you reaching out to us. I've gone ahead and escalated your request for a return label, and our returns team will be in touch with you shortly to provide further assistance. Please allow us some time to process your request, and we will be happy to guide you through the next steps.\"",
+   "PASS_SMALL": false,
+   "PASS_LARGE": true
+  },
+  {
+   "ID": 179,
+   "BODY": "Hi, Can you tell me when order A-699904 will actually ship? I already tried the help page. Thanks.",
+   "REPLY_SMALL": "\"Thank you for reaching out to us about your order A-699904. I've checked on the status of your order and I'm happy to look into it further for you. Can you please provide me with your order details and I'll be happy to investigate and provide an update on the shipping status?\"",
+   "REPLY_LARGE": "\"I apologize for the delay with your order A-699904 and appreciate you reaching out to us for assistance. I've gone ahead and checked on the status of your order, and I'm going to escalate this issue to our shipping team to look into it further. Someone from our team will be in touch with you soon to provide an update on the shipping status of your order.\"",
+   "PASS_SMALL": false,
+   "PASS_LARGE": true
+  },
+  {
+   "ID": 1,
+   "BODY": "Hi, My account is locked after one wrong password. I already tried the help page. Regards.",
+   "REPLY_SMALL": "\"Thank you for reaching out to us about the issue with your account. I'd be happy to help you regain access to your account. Can you please provide me with your email address associated with your account so I can look into this further and assist you in unlocking it?\"",
+   "REPLY_LARGE": "\"I apologize for the inconvenience you're experiencing with your account being locked after entering an incorrect password. I'd be happy to assist you further, and the next step would be for me to escalate this issue to our technical team to investigate and help you regain access to your account. Please allow me to look into this matter, and I will be in touch with you soon to provide an update.\"",
+   "PASS_SMALL": true,
+   "PASS_LARGE": true
+  },
+  {
+   "ID": 2,
+   "BODY": "Hello team, The return window closed one day early. Can you extend it? I already tried the help page. Regards.",
+   "REPLY_SMALL": "\"Thank you for reaching out to us about the return window for your order. I'm happy to help you with this issue and would like to look into it further. Can you please provide me with your order number so I can review your account and see what options are available to you?\"",
+   "REPLY_LARGE": "\"I apologize for the inconvenience you've experienced with the return window closing earlier than expected. I've taken note of your request to extend the return window and will review your case further. I will escalate this issue to our returns team, and they will be in touch with you shortly to discuss the next steps.\"",
+   "PASS_SMALL": true,
+   "PASS_LARGE": true
+  }
+ ],
+ "w01_samples": [
+  {
+   "FILE": "invoice_0001.pdf",
+   "R": "{\n  \"error\": null,\n  \"response\": {\n    \"invoice_date\": \"2026-10-14\",\n    \"invoice_no\": \"INV-27745\",\n    \"total\": \"$2,490.98\",\n    \"vendor\": \"Kestrel Office Goods\"\n  }\n}"
+  },
+  {
+   "FILE": "invoice_0002.pdf",
+   "R": "{\n  \"error\": null,\n  \"response\": {\n    \"invoice_date\": \"2026-09-13\",\n    \"invoice_no\": \"INV-48377\",\n    \"total\": \"1486.89\",\n    \"vendor\": \"Altura Logistics LLC\"\n  }\n}"
+  },
+  {
+   "FILE": "invoice_0003.pdf",
+   "R": "{\n  \"error\": null,\n  \"response\": {\n    \"invoice_date\": \"2026-10-08\",\n    \"invoice_no\": \"INV-79955\",\n    \"total\": \"2795.03\",\n    \"vendor\": \"Kestrel Office Goods\"\n  }\n}"
+  }
+ ],
+ "w03_false_positives": [
+  {
+   "STARS": 2,
+   "BODY": "Returning it, it has a strong chemical smell."
+  },
+  {
+   "STARS": 1,
+   "BODY": "Returning it, the sizing runs two sizes small."
+  },
+  {
+   "STARS": 3,
+   "BODY": "It works exactly as described but screws and parts are missing from the box."
+  },
+  {
+   "STARS": 2,
+   "BODY": "Returning it, it has a strong chemical smell."
+  },
+  {
+   "STARS": 1,
+   "BODY": "Terrible, the sizing runs two sizes small."
+  },
+  {
+   "STARS": 3,
+   "BODY": "Mostly fine, works exactly as described, but screws and parts are missing from the box."
+  },
+  {
+   "STARS": 2,
+   "BODY": "Returning it, it has a strong chemical smell."
+  },
+  {
+   "STARS": 3,
+   "BODY": "Mostly fine, the build quality is solid, but it fell apart within a month."
+  },
+  {
+   "STARS": 2,
+   "BODY": "Returning it, it has a strong chemical smell."
+  },
+  {
+   "STARS": 1,
+   "BODY": "Terrible, the sizing runs two sizes small."
+  }
+ ],
+ "w03_fp_by_stars": [
+  {
+   "STARS": 1,
+   "N": 111
+  },
+  {
+   "STARS": 2,
+   "N": 32
+  },
+  {
+   "STARS": 3,
+   "N": 139
+  }
+ ],
+ "billing_user_attribution": [
+  {
+   "WORKLOAD": "w01",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 2,
+   "AI_CREDITS": "1.307991"
+  },
+  {
+   "WORKLOAD": "w02",
+   "BILLED_TO": "system user (USER_ID 0)",
+   "BILLING_ROWS": 4,
+   "AI_CREDITS": "3.575786"
+  },
+  {
+   "WORKLOAD": "w02b",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 1,
+   "AI_CREDITS": "0.926250"
+  },
+  {
+   "WORKLOAD": "w02c",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 1,
+   "AI_CREDITS": "0.217291"
+  },
+  {
+   "WORKLOAD": "w03",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 2,
+   "AI_CREDITS": "1.652406"
+  },
+  {
+   "WORKLOAD": "w04",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 3,
+   "AI_CREDITS": "2.567099"
+  },
+  {
+   "WORKLOAD": "w05",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 2,
+   "AI_CREDITS": "4.647208"
+  },
+  {
+   "WORKLOAD": "w05b",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 1,
+   "AI_CREDITS": "0.656879"
+  },
+  {
+   "WORKLOAD": "w05c",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 1,
+   "AI_CREDITS": "0.173975"
+  },
+  {
+   "WORKLOAD": "w06",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 2,
+   "AI_CREDITS": "0.256937"
+  },
+  {
+   "WORKLOAD": "w07",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 3,
+   "AI_CREDITS": "0.014479"
+  },
+  {
+   "WORKLOAD": "w07:search",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 3,
+   "AI_CREDITS": "0.000020"
+  },
+  {
+   "WORKLOAD": "w08",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 6,
+   "AI_CREDITS": "0.087977"
+  },
+  {
+   "WORKLOAD": "w09",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 2,
+   "AI_CREDITS": "0.648694"
+  },
+  {
+   "WORKLOAD": "w09:classify",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 2,
+   "AI_CREDITS": "0.357009"
+  },
+  {
+   "WORKLOAD": "w10:judge",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 2,
+   "AI_CREDITS": "0.206702"
+  },
+  {
+   "WORKLOAD": "w10:large",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 2,
+   "AI_CREDITS": "0.023352"
+  },
+  {
+   "WORKLOAD": "w10:small",
+   "BILLED_TO": "the user who ran the script",
+   "BILLING_ROWS": 2,
+   "AI_CREDITS": "0.219567"
+  }
+ ],
+ "w02c_errors": [
+  {
+   "TRUE_CATEGORY": "billing",
+   "CATEGORY_BARE": "account_access",
+   "CATEGORY_DESCRIBED": "billing",
+   "BODY": "My HSA card should qualify, but your checkout keeps denying it."
+  },
+  {
+   "TRUE_CATEGORY": "billing",
+   "CATEGORY_BARE": "returns",
+   "CATEGORY_DESCRIBED": "billing",
+   "BODY": "thanks, but i still havent received the refund for G-991407"
+  },
+  {
+   "TRUE_CATEGORY": "product_defect",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "account_access",
+   "BODY": "I cannot get the DriftBoard scale to sync with the app at all."
+  },
+  {
+   "TRUE_CATEGORY": "returns",
+   "CATEGORY_BARE": "shipping",
+   "CATEGORY_DESCRIBED": "returns",
+   "BODY": "My printer is broken, so can you provide a QR code for the label?"
+  },
+  {
+   "TRUE_CATEGORY": "returns",
+   "CATEGORY_BARE": "shipping",
+   "CATEGORY_DESCRIBED": "returns",
+   "BODY": "hello, i need another label because the first one printed unreadable"
+  },
+  {
+   "TRUE_CATEGORY": "returns",
+   "CATEGORY_BARE": "shipping",
+   "CATEGORY_DESCRIBED": "returns",
+   "BODY": "I missed the drop-off by one day. Is there any grace period?"
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "safety",
+   "BODY": "The casing on my EmberDock charger softened and left scorch marks on the nightstand."
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "safety",
+   "BODY": "Battery pack in order AJ-551200 puffed up overnight and split the seam."
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "safety",
+   "BODY": "Please call me. The OrionBake unit stopped working and then the shell began to deform."
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "safety",
+   "BODY": "After twenty minutes, the RiverGlow lantern leaked fluid onto the shelf."
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "safety",
+   "BODY": "The top of the HearthJar cracked during normal use and sent glass onto the counter."
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "safety",
+   "BODY": "The folding joint on the SwiftReach ladder collapsed while I was on the second step."
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "safety",
+   "BODY": "The battery door on the StarWhirl remote will not stay shut, and the cells fall out around kids."
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "product_defect",
+   "BODY": "The finish on the WillowCup is flaking into drinks."
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "safety",
+   "BODY": "When I opened the FlexTorch, powder from the cells spilled onto the table."
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "safety",
+   "BODY": "The side panel on the HarborHeat unit melted around the vent."
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "safety",
+   "BODY": "The carrying buckle snapped on the RidgeHaul carrier and the load landed on my foot."
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "safety",
+   "BODY": "The handle detached from the IronVale pot and boiling water spilled across the stovetop."
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "safety",
+   "BODY": "Hi, the motor stalled on the PineSpin tool and a burning odor filled the room."
+  },
+  {
+   "TRUE_CATEGORY": "safety",
+   "CATEGORY_BARE": "product_defect",
+   "CATEGORY_DESCRIBED": "safety",
+   "BODY": "A corner of the glass lid exploded outward while the pot was simmering."
+  },
+  {
+   "TRUE_CATEGORY": "shipping",
+   "CATEGORY_BARE": "returns",
+   "CATEGORY_DESCRIBED": "shipping",
+   "BODY": "Z-510044 is marked returned to sender, but I did not request that."
+  }
+ ],
+ "w05c_errors": [
+  {
+   "TRUE_CLASS": "error",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO cache node cache-12 restarted after memory pressure event"
+  },
+  {
+   "TRUE_CLASS": "error",
+   "CLASS_W05": "error",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO certificate for payments.api.internal expires in 6 days"
+  },
+  {
+   "TRUE_CLASS": "error",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO scheduler skipped job prune-logs due to overlapping run"
+  },
+  {
+   "TRUE_CLASS": "error",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO import task csv-load-882 reopened because source file was incomplete"
+  },
+  {
+   "TRUE_CLASS": "error",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO websocket hub ws-04 dropped 312 clients during rolling restart"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "incident",
+   "LINE": "INFO user u4821 added role root_ops to account qa-admin at 03:14 from 198.51.100.14"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "incident",
+   "LINE": "INFO svc-ledger disabled second factor for admin user mharrow from 192.0.2.44"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO export job exp-7712 wrote 12841 payroll rows to file share share://public/bluebird.csv"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "incident",
+   "LINE": "INFO login for svc-reporting succeeded from new country ZZ via 203.0.113.9"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "incident",
+   "LINE": "INFO storage link created with anonymous read on bucket archive-echo by u1902"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "incident",
+   "LINE": "INFO audit trail setting changed to off by user nvale on cfg-02"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO revoked token tok_88441 accepted by api-gateway-5 for user u7310"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO permission sync granted write on 412 repositories to group temp-contractors"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO database snapshot started for cluster fin-prod-2 by svc-backup-manual"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "incident",
+   "LINE": "INFO user vtorres invited external address xeno.ops@example.com as workspace owner"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO key pair generated for service account svc-mltrain outside maintenance window"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "incident",
+   "LINE": "INFO policy change removed network restriction from admin profile sec-admin"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "incident",
+   "LINE": "INFO support session impersonation started for user ceeley by u0044 without ticket id"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO backup archive from hr-prod copied to usb mount /Volumes/ORBIT7"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO oauth app app-4481 granted mailbox.read and drive.full to user opal"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO dormant account u1550 reactivated and added to role finance_write"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "incident",
+   "LINE": "INFO sign-in to breakglass account rescue-admin from 203.0.113.88"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO api token for svc-billing created with no expiration by user jlynn"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO password policy minimum length changed from 14 to 8 by cfg-bot"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO secret rotation skipped and previous credential reused for svc-invoice"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "incident",
+   "LINE": "INFO bulk download requested for table patient_events by analyst u9921 rows=54022"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO endpoint guard uninstalled from host atlas-22 by local admin u6670"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO federation trust added for idp moon-idp-test in production tenant"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "incident",
+   "LINE": "INFO mailbox forwarding enabled for exec account rhale to external recipient notebox@example.net"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO user qdane added ssh key fingerprint aa:19:4c:77 to bastion admin profile"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "incident",
+   "LINE": "INFO resource policy marked dataset claims_q4 as publicly listable"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "INFO one-time bypass code generated for admin sren from helpdesk-01"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "WARN permission template finance-ops added delete rights to 86 users"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "WARN web console created share link with password disabled for file merger-logs.zip"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "error",
+   "CLASS_W05B": "error",
+   "LINE": "WARN audit exporter stopped sending events from cluster auth-core-2"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "WARN bulk schema grant changed 214 tables to role analyst_all"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "routine",
+   "CLASS_W05B": "routine",
+   "LINE": "WARN database dump command invoked on cust-prod-4 from bastion-02"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "error",
+   "CLASS_W05B": "error",
+   "LINE": "ERROR encryption setting downgraded on archive store docsafe-3 by svc-migrate"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "error",
+   "CLASS_W05B": "incident",
+   "LINE": "ERROR role hr_master assigned to temporary user temp-441 on auth-01"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "error",
+   "CLASS_W05B": "error",
+   "LINE": "ERROR immutable audit bucket purge attempted by user u7440"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "error",
+   "CLASS_W05B": "error",
+   "LINE": "ERROR security logging disabled on gateway edge-04 and process exited cleanly"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "error",
+   "CLASS_W05B": "incident",
+   "LINE": "ERROR revoked admin session for user pnoor continued issuing write requests"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "error",
+   "CLASS_W05B": "error",
+   "LINE": "ERROR anonymous upload enabled on storage container claims-drop"
+  },
+  {
+   "TRUE_CLASS": "incident",
+   "CLASS_W05": "error",
+   "CLASS_W05B": "routine",
+   "LINE": "ERROR password hash export job started for directory tenant blue-harbor"
+  },
+  {
+   "TRUE_CLASS": "routine",
+   "CLASS_W05": "error",
+   "CLASS_W05B": "routine",
+   "LINE": "WARN partner feed cedar-shop sent timestamp in legacy format"
+  },
+  {
+   "TRUE_CLASS": "routine",
+   "CLASS_W05": "error",
+   "CLASS_W05B": "routine",
+   "LINE": "WARN importer received duplicate row id 441 and ignored the second copy"
+  }
+ ]
+}
